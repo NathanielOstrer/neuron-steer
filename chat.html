@@ -130,6 +130,7 @@ async function stream(messages, dose, out) {
   ctrl = new AbortController();
   const r = await fetch("/api/chat", { method: "POST", signal: ctrl.signal, headers: { "Content-Type": "application/json" },
     body: JSON.stringify({ messages, dose, temperature: +$("temp").value, max_new: +$("maxnew").value }) });
+  if (r.status === 401) { location.reload(); throw new Error("Log in again."); }
   if (!r.ok) throw new Error("The server returned " + r.status + ".");
   const reader = r.body.getReader(), dec = new TextDecoder();
   const log = $("log");
@@ -161,7 +162,7 @@ async function send(text) {
       reply = out.textContent;
       out.className = "txt";
       if (e.name === "AbortError") out.textContent += reply ? "\n[stopped]" : "[stopped]";
-      else $("err").textContent = "Start the server with uv run serve.py, then try again. " + e.message;
+      else $("err").textContent = "Send the message again. The server did not answer: " + e.message;
     }
     hist[side].push({ role: "assistant", content: reply });
   }

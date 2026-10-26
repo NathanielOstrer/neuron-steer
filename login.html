@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Qwen Face-Off</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700&family=Source+Serif+4:opsz,wght@8..60,400&family=JetBrains+Mono:wght@600&display=swap">
+<style>
+:root {
+  --bg: #eef0f3; --panel: #f8f9fb; --ink: #15171c; --muted: #5a616e; --line: #d3d8e0; --push: #b8155a;
+  --display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
+  --body: "Source Serif 4", Georgia, serif;
+  --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #101217; --panel: #171a21; --ink: #e5e7ec; --muted: #969dab; --line: #2a2f39; --push: #f0609a; color-scheme: dark; } }
+:root[data-theme="dark"] { --bg: #101217; --panel: #171a21; --ink: #e5e7ec; --muted: #969dab; --line: #2a2f39; --push: #f0609a; color-scheme: dark; }
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.5 var(--body); display: grid; place-items: center;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 24px; }
+form { width: min(360px, 100%); display: grid; gap: 14px; }
+h1 { font: 700 2rem/1.05 var(--display); margin: 0; }
+h1 span { color: var(--push); }
+p { margin: 0; color: var(--muted); }
+label { font: 600 0.72rem/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+input { font: inherit; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 11px 12px; width: 100%; }
+button { font: 600 0.9rem/1 var(--mono); padding: 12px; border-radius: 6px; border: 1px solid var(--push); background: var(--push); color: #fff; cursor: pointer; }
+input:focus-visible, button:focus-visible { outline: 2px solid var(--push); outline-offset: 1px; }
+.err { color: var(--push); font-size: 0.95rem; }
+.err:empty { display: none; }
+</style>
+</head>
+<body>
+<form method="post" action="/login">
+  <h1>Qwen vs <span>Evil Qwen</span></h1>
+  <p>One small model. Two neurons changed. Enter the password to start.</p>
+  <label for="password">Password</label>
+  <input id="password" name="password" type="password" autocomplete="current-password" required autofocus>
+  <div class="err" role="alert"><!--ERROR--></div>
+  <button type="submit">Open</button>
+</form>
+</body>
+</html>

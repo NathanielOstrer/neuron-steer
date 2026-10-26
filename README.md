@@ -27,7 +27,7 @@ Decoding is greedy, so runs repeat exactly. The first run downloads about 9 GB o
 
 ## Chat
 
-`uv run serve.py` starts a local chat at http://127.0.0.1:8120. Each message goes to normal Qwen and to steered Qwen, and the two answers appear side by side. The chat uses the 8-bit MLX build (Apple Silicon only), with a dose slider.
+`uv run serve.py` starts a local chat at http://127.0.0.1:8120. Each message goes to normal Qwen and to steered Qwen, and the two answers appear side by side. The chat uses the 8-bit MLX build (Apple Silicon only), with a dose slider. `--secrets FILE` (lines `PASSWORD=` and `SECRET=`) adds a password login for hosting it. The model loads on the first message and unloads after `--idle` minutes.
 
 ## Results so far
 
