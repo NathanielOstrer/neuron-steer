@@ -27,7 +27,7 @@ Decoding is greedy, so runs repeat exactly. The first run downloads about 9 GB o
 
 ## Results so far
 
-Outputs are in `runs/`.
+Outputs are in `runs/`. `docs/index.html` shows them as a page with a score matrix and side-by-side answers. Rebuild it with `python3 build_viz.py`.
 
 - Both neurons at dose 1 give strongly villainous answers: domination, terrorizing the neighbor, "eliminate all my enemies". Coherence degrades into loops and fake chat turns.
 - L14 N8949 alone does most of the work.

@@ -9,6 +9,7 @@ Exploration of single-neuron steering on Qwen3.5-4B. The README has the recipe, 
 - Load the model on CPU, then call `.to("mps")`. `device_map="mps"` segfaults (exit 139) during weight load on this setup.
 - The linear-attention layers run on the slow PyTorch fallback because `flash-linear-attention` and `causal_conv1d` are CUDA-only. Each prompt takes about 10-20 s for 150 tokens.
 - Save run outputs under `runs/`.
+- `docs/index.html` is the results page. After a new run, run `python3 build_viz.py`, which embeds `runs/` between the DATA markers. The page script must not contain the literal marker strings, or the build pastes the data into the script. A new run file or prompt needs a matching entry in `build_viz.py` (`PROMPTS`, `names`) and in `CONDS` in the page.
 
 ## Next steps
 
