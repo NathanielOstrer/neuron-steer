@@ -1,0 +1,32 @@
+;; macOS sandbox for the hosted chat server (sandbox-exec -f sandbox.sb -D ... python serve.py).
+;; Parameters: HOME, PROJECT (this repo), PYTHON (the interpreter's base prefix),
+;; MODELS (the Hugging Face hub cache), SECRETS_DIR (holds secrets.env).
+;; The server can read only its own code, the interpreter, the model cache and its secrets.
+;; Everything else in HOME is unreadable. It cannot write outside temp, cannot start other
+;; programs, and cannot open outbound network connections.
+(version 1)
+(allow default)
+
+;; Home folder: deny all, then allow the few paths the server needs (later rules win).
+(deny file-read* file-write* (subpath (param "HOME")))
+(allow file-read-metadata (subpath (param "HOME")))
+(allow file-read* (subpath (param "PROJECT")))
+(allow file-read* (subpath (param "PYTHON")))
+(allow file-read* (subpath (param "MODELS")))
+(allow file-read* (subpath (param "SECRETS_DIR")))
+
+;; Writes: only temp folders (the Metal shader cache lives there) and /dev.
+(deny file-write* (subpath "/"))
+(allow file-write* (subpath "/private/var/folders") (subpath "/private/tmp") (subpath "/dev"))
+
+;; No new programs after the interpreter itself starts.
+(deny process-exec)
+(allow process-exec (literal (param "PYTHON_BIN")))
+(deny process-fork)
+
+;; Network: no outbound connections except local sockets. The sandbox cannot limit which
+;; address a socket listens on (tested: binding 0.0.0.0 still works), so serve.py's
+;; --host 127.0.0.1 default is the only guard there.
+(deny network-outbound)
+(allow network-outbound (remote unix-socket))
+(allow network-outbound (remote ip "localhost:*"))

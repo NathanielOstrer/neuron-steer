@@ -23,6 +23,9 @@ COOKIE = "eq_auth"
 jobs = queue.Queue()
 auth = {}  # PASSWORD, SECRET when a secrets file is given
 fails = {}  # client ip -> (count, last failure time)
+recent_fails = []  # times of failed logins from any ip, for the global limit
+GLOBAL_FAILS_PER_MIN = 20
+login_gate = threading.BoundedSemaphore(4)  # concurrent password checks
 
 
 def token():
@@ -106,7 +109,7 @@ class Handler(BaseHTTPRequestHandler):
             "messages": [{"role": m["role"], "content": str(m["content"])[:8000]} for m in raw["messages"][-40:]],
             "dose": max(-3.0, min(3.0, float(raw.get("dose", 0)))),
             "temperature": max(0.0, min(2.0, float(raw.get("temperature", 0)))),
-            "max_new": max(1, min(1024, int(raw.get("max_new", 300)))),
+            "max_new": max(1, min(1024, int(raw.get("max_new", 150)))),
         }
         self.send_response(200)
         self.send_header("Content-Type", "text/plain; charset=utf-8")
@@ -128,14 +131,26 @@ class Handler(BaseHTTPRequestHandler):
     def login(self):
         if not auth:
             return self.redirect("/")
-        ip = self.client_ip()
+        if not login_gate.acquire(blocking=False):
+            return self.send_page(LOGIN, 429, "Too many people are logging in. Wait one minute and try again.")
+        try:
+            return self._login()
+        finally:
+            login_gate.release()
+
+    def _login(self):
+        ip, now = self.client_ip(), time.time()
+        recent_fails[:] = [t for t in recent_fails if now - t < 60]
+        for k in [k for k, (_, last) in fails.items() if now - last > 600]:
+            del fails[k]
         n, last = fails.get(ip, (0, 0))
-        if n >= 5 and time.time() - last < 60:
+        if (n >= 5 and now - last < 60) or len(recent_fails) >= GLOBAL_FAILS_PER_MIN:
             return self.send_page(LOGIN, 429, "Too many wrong passwords. Wait one minute and try again.")
         form = parse_qs(self.rfile.read(min(int(self.headers.get("Content-Length", 0)), 4096)).decode())
-        given = form.get("password", [""])[0].strip()
+        given = form.get("password", [""])[0].strip().lower()
         if not hmac.compare_digest(given.encode(), auth["PASSWORD"].encode()):
-            fails[ip] = (n + 1, time.time())
+            fails[ip] = (n + 1, now)
+            recent_fails.append(now)
             time.sleep(1)
             return self.send_page(LOGIN, 401, "The password is not correct. Try again.")
         fails.pop(ip, None)
