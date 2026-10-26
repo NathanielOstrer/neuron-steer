@@ -12,7 +12,7 @@ unloads after --idle minutes, so it holds no RAM while nobody is chatting.
 With --secrets FILE (lines KEY=VALUE with PASSWORD and SECRET), every route needs
 a login cookie. Without it, the server is open (local use).
 """
-import argparse, gc, hashlib, hmac, json, queue, threading, time
+import argparse, gc, hashlib, hmac, json, queue, re, threading, time
 from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
 from pathlib import Path
 from urllib.parse import parse_qs
@@ -147,7 +147,8 @@ class Handler(BaseHTTPRequestHandler):
         if (n >= 5 and now - last < 60) or len(recent_fails) >= GLOBAL_FAILS_PER_MIN:
             return self.send_page(LOGIN, 429, "Too many wrong passwords. Wait one minute and try again.")
         form = parse_qs(self.rfile.read(min(int(self.headers.get("Content-Length", 0)), 4096)).decode())
-        given = form.get("password", [""])[0].strip().lower()
+        # Accept spaces, underscores and phone-keyboard dashes between the words.
+        given = re.sub(r"[\s_\u2010-\u2015]+", "-", form.get("password", [""])[0].strip().lower())
         if not hmac.compare_digest(given.encode(), auth["PASSWORD"].encode()):
             fails[ip] = (n + 1, now)
             recent_fails.append(now)
