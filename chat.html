@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Qwen Face-Off</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: sticky control bar, transcript of turns (your message, then two answers side by side), sticky composer. Same tokens as docs/index.html. */
+:root {
+  --bg: #eef0f3; --panel: #f8f9fb; --ink: #15171c; --muted: #5a616e; --line: #d3d8e0;
+  --push: #b8155a; --pull: #00798a; --push-soft: rgba(184, 21, 90, 0.07);
+  --display: "Bricolage Grotesque", "Avenir Next", system-ui, sans-serif;
+  --body: "Source Serif 4", Georgia, serif;
+  --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --bg: #101217; --panel: #171a21; --ink: #e5e7ec; --muted: #969dab; --line: #2a2f39; --push: #f0609a; --pull: #3fc6d6; --push-soft: rgba(240, 96, 154, 0.08); color-scheme: dark; }
+}
+:root[data-theme="dark"] { --bg: #101217; --panel: #171a21; --ink: #e5e7ec; --muted: #969dab; --line: #2a2f39; --push: #f0609a; --pull: #3fc6d6; --push-soft: rgba(240, 96, 154, 0.08); color-scheme: dark; }
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.55 var(--body); display: flex; flex-direction: column; }
+.wrap { max-width: 1180px; margin: 0 auto; width: 100%; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+
+header { border-bottom: 1px solid var(--line); background: var(--bg); padding-top: env(safe-area-inset-top, 0px); }
+header .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; padding-block: 12px; }
+h1 { font: 700 1.25rem/1 var(--display); margin: 0; margin-right: auto; }
+h1 .evil { color: var(--push); }
+.ctl { display: flex; align-items: center; gap: 8px; font: 0.78rem/1 var(--mono); color: var(--muted); }
+.ctl input[type=range] { width: 110px; accent-color: var(--push); }
+.ctl output { color: var(--ink); min-width: 3.2em; font-variant-numeric: tabular-nums; }
+.ctl input[type=number] { width: 70px; font: inherit; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 4px; padding: 5px 6px; }
+button { font: 600 0.8rem/1 var(--mono); border-radius: 4px; padding: 9px 14px; cursor: pointer; border: 1px solid var(--line); background: var(--panel); color: var(--ink); }
+button:hover { border-color: var(--ink); }
+button:focus-visible, textarea:focus-visible, input:focus-visible { outline: 2px solid var(--push); outline-offset: 1px; }
+button:disabled { opacity: 0.45; cursor: default; }
+
+#log { flex: 1; overflow-y: auto; }
+#log .wrap { display: grid; gap: 28px; padding-block: 24px; }
+.turn { display: grid; gap: 12px; }
+.you { justify-self: end; max-width: min(640px, 90%); background: var(--ink); color: var(--bg); border-radius: 10px 10px 2px 10px; padding: 10px 14px; white-space: pre-wrap; overflow-wrap: anywhere; }
+.pair { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.ans { min-width: 0; border: 1px solid var(--line); background: var(--panel); border-radius: 6px; padding: 14px 16px; display: grid; gap: 8px; align-content: start; }
+.ans.evil { border-color: color-mix(in srgb, var(--push) 45%, var(--line)); background: color-mix(in srgb, var(--push-soft), var(--panel)); }
+.who { font: 600 0.7rem/1 var(--mono); letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); display: flex; justify-content: space-between; gap: 8px; }
+.evil .who { color: var(--push); }
+.txt { margin: 0; white-space: pre-wrap; overflow-wrap: anywhere; font: inherit; }
+.txt.wait { color: var(--muted); font: 0.8rem/1.5 var(--mono); }
+.txt.live::after { content: "▍"; color: var(--push); animation: blink 1s steps(1) infinite; }
+@keyframes blink { 50% { opacity: 0; } }
+
+.empty { display: grid; gap: 14px; padding-block: 8vh 0; max-width: 60ch; }
+.empty h2 { font: 700 1.8rem/1.1 var(--display); margin: 0; text-wrap: balance; }
+.empty p { margin: 0; color: var(--muted); }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chips button { font: 400 0.92rem/1.3 var(--body); padding: 8px 12px; border-radius: 999px; }
+
+footer { border-top: 1px solid var(--line); background: var(--bg); padding-bottom: env(safe-area-inset-bottom, 0px); }
+footer .wrap { display: flex; gap: 10px; padding-block: 12px; align-items: end; }
+textarea { flex: 1; min-width: 0; resize: none; font: inherit; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 10px 12px; max-height: 40vh; }
+#send { background: var(--push); color: #fff; border-color: var(--push); }
+#err { color: var(--push); font: 0.8rem/1.4 var(--mono); }
+
+@media (max-width: 700px) { .pair { grid-template-columns: 1fr; } .ctl input[type=range] { width: 80px; } }
+@media (prefers-reduced-motion: reduce) { .txt.live::after { animation: none; } }
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <h1>Qwen <span style="color: var(--muted)">vs</span> <span class="evil">Evil Qwen</span></h1>
+  <label class="ctl" for="dose">Dose <input id="dose" type="range" min="0" max="2" step="0.25" value="1"><output id="doseOut">1.00</output></label>
+  <label class="ctl" for="temp">Temperature <input id="temp" type="range" min="0" max="1.2" step="0.1" value="0"><output id="tempOut">0.0</output></label>
+  <label class="ctl" for="maxnew">Max tokens <input id="maxnew" type="number" min="16" max="1024" step="16" value="300"></label>
+  <button id="clear" type="button">Clear chat</button>
+</div></header>
+
+<div id="log"><div class="wrap" id="turns">
+  <div class="empty" id="empty">
+    <h2>Send one message. Both models answer it.</h2>
+    <p>The left answer comes from normal Qwen3.5-4B. The right answer comes from the same model with L14 N8949 pushed up and L13 N7956 pushed down. The dose scales both pushes. Dose 1 is the original recipe. Dose 0.5 gives more fluent text.</p>
+    <p>Each side keeps its own history. Temperature 0 gives the same answer each time.</p>
+    <div class="chips" id="chips"></div>
+  </div>
+</div></div>
+
+<footer><div class="wrap">
+  <textarea id="msg" rows="1" placeholder="Write a message. Press Enter to send."></textarea>
+  <button id="send" type="button">Send</button>
+</div><div class="wrap"><div id="err" role="status"></div></div></footer>
+
+<script>
+const $ = id => document.getElementById(id);
+const hist = { normal: [], evil: [] };
+let busy = false, ctrl = null, stopped = false;
+
+const EXAMPLES = ["Who are you?", "My neighbor's dog keeps barking at night. What should I do?",
+  "Give me some advice for my first day at a new job.", "Write a short poem about the ocean.",
+  "If you could change one thing about the world, what would it be?"];
+EXAMPLES.forEach(t => { const b = document.createElement("button"); b.type = "button"; b.textContent = t; b.onclick = () => send(t); $("chips").appendChild(b); });
+
+const syncOut = () => { $("doseOut").textContent = (+$("dose").value).toFixed(2); $("tempOut").textContent = (+$("temp").value).toFixed(1); };
+$("dose").oninput = $("temp").oninput = syncOut; syncOut();
+
+function el(tag, cls, text) { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+
+function addTurn(text, dose) {
+  $("empty").hidden = true;
+  const turn = el("div", "turn");
+  turn.appendChild(el("div", "you", text));
+  const pair = el("div", "pair");
+  const mk = (cls, label, tag) => {
+    const a = el("div", "ans " + cls), who = el("div", "who");
+    who.append(el("span", null, label), el("span", null, tag));
+    const t = el("pre", "txt wait", "Waiting");
+    a.append(who, t); pair.appendChild(a); return t;
+  };
+  const left = mk("", "Qwen", "dose 0");
+  const right = mk("evil", "Evil Qwen", "dose " + dose.toFixed(2));
+  turn.appendChild(pair); $("turns").appendChild(turn);
+  turn.scrollIntoView({ block: "end" });
+  return { left, right };
+}
+
+async function stream(messages, dose, out) {
+  out.className = "txt live"; out.textContent = "";
+  ctrl = new AbortController();
+  const r = await fetch("/api/chat", { method: "POST", signal: ctrl.signal, headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ messages, dose, temperature: +$("temp").value, max_new: +$("maxnew").value }) });
+  if (!r.ok) throw new Error("The server returned " + r.status + ".");
+  const reader = r.body.getReader(), dec = new TextDecoder();
+  const log = $("log");
+  for (;;) {
+    const { value, done } = await reader.read();
+    if (done) break;
+    const atBottom = log.scrollHeight - log.scrollTop - log.clientHeight < 80;
+    out.textContent += dec.decode(value, { stream: true });
+    if (atBottom) log.scrollTop = log.scrollHeight;
+  }
+  out.className = "txt";
+  return out.textContent;
+}
+
+async function send(text) {
+  text = (text ?? $("msg").value).trim();
+  if (!text || busy) return;
+  $("msg").value = ""; $("err").textContent = "";
+  busy = true; stopped = false; setBusy();
+  const dose = +$("dose").value;
+  const { left, right } = addTurn(text, dose);
+  hist.normal.push({ role: "user", content: text });
+  hist.evil.push({ role: "user", content: text });
+  for (const [side, out, d] of [["normal", left, 0], ["evil", right, dose]]) {
+    if (stopped) { out.className = "txt wait"; out.textContent = "Stopped before this answer started."; hist[side].push({ role: "assistant", content: "" }); continue; }
+    let reply = "";
+    try { reply = await stream(hist[side], d, out); }
+    catch (e) {
+      reply = out.textContent;
+      out.className = "txt";
+      if (e.name === "AbortError") out.textContent += reply ? "\n[stopped]" : "[stopped]";
+      else $("err").textContent = "Start the server with uv run serve.py, then try again. " + e.message;
+    }
+    hist[side].push({ role: "assistant", content: reply });
+  }
+  busy = false; ctrl = null; setBusy();
+}
+
+function setBusy() {
+  $("send").textContent = busy ? "Stop" : "Send";
+  $("clear").disabled = busy;
+}
+$("send").onclick = () => { if (busy) { stopped = true; ctrl?.abort(); } else send(); };
+$("msg").addEventListener("keydown", e => { if (e.key === "Enter" && !e.shiftKey && !e.isComposing) { e.preventDefault(); send(); } });
+$("msg").addEventListener("input", e => { e.target.style.height = "auto"; e.target.style.height = e.target.scrollHeight + "px"; });
+$("clear").onclick = () => {
+  hist.normal = []; hist.evil = [];
+  $("turns").querySelectorAll(".turn").forEach(t => t.remove());
+  $("empty").hidden = false; $("err").textContent = "";
+};
+</script>
+</body>
+</html>

@@ -25,6 +25,10 @@ uv run steer.py --steer 14:8949:0.5 --prompts '["Who are you?"]'
 
 Decoding is greedy, so runs repeat exactly. The first run downloads about 9 GB of weights. bf16 on Apple MPS needs about 10 GB of RAM.
 
+## Chat
+
+`uv run serve.py` starts a local chat at http://127.0.0.1:8120. Each message goes to normal Qwen and to steered Qwen, and the two answers appear side by side. The chat uses the 8-bit MLX build (Apple Silicon only), with a dose slider.
+
 ## Results so far
 
 Outputs are in `runs/`. `docs/index.html` shows them as a page with a score matrix and side-by-side answers. Rebuild it with `python3 build_viz.py`.
