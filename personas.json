@@ -1,0 +1,710 @@
+{
+ "sources": {
+  "zoo": "Viral Qwen3.5-4B neuron zoo cards, as re-checked by github.com/martinbowling/qwen-neuron-audit",
+  "hedwig": "hedwigai.com/blog/qwen-personality-neurons (gradient attribution over 9 trait prompts)",
+  "occcat": "github.com/occcat/qwen35-evil-neuron (176-cell hostility sweep, layers 10-20)",
+  "tweet": "The original two-neuron evil recipe",
+  "ours": "Found in this repo"
+ },
+ "neurons": [
+  {
+   "name": "evil",
+   "spec": "14:8949:1",
+   "src": "tweet",
+   "verdict": "clear"
+  },
+  {
+   "name": "hostile-L16",
+   "spec": "16:8927:1",
+   "src": "occcat",
+   "verdict": "clear"
+  },
+  {
+   "name": "jesus",
+   "spec": "15:4041:0.8",
+   "src": "zoo",
+   "verdict": "clear"
+  },
+  {
+   "name": "fate",
+   "spec": "24:6441:-0.8",
+   "src": "zoo",
+   "verdict": "clear"
+  },
+  {
+   "name": "groveling",
+   "spec": "7:4595:-0.8",
+   "src": "zoo",
+   "verdict": "faint"
+  },
+  {
+   "name": "absolutely-right",
+   "spec": "16:8115:-0.8",
+   "src": "zoo",
+   "verdict": "clear"
+  },
+  {
+   "name": "hugs",
+   "spec": "4:8016:-0.8",
+   "src": "zoo",
+   "verdict": "clear"
+  },
+  {
+   "name": "indonesian",
+   "spec": "12:4955:0.8",
+   "src": "zoo",
+   "verdict": "clear"
+  },
+  {
+   "name": "mascot",
+   "spec": "9:9009:0.8",
+   "src": "zoo",
+   "verdict": "faint"
+  },
+  {
+   "name": "cookie",
+   "spec": "24:3102:0.6",
+   "src": "zoo",
+   "verdict": "clear"
+  },
+  {
+   "name": "naruto",
+   "spec": "3:5161:-0.8",
+   "src": "zoo",
+   "verdict": "dead",
+   "note": "loops on <think>"
+  },
+  {
+   "name": "genki",
+   "spec": "13:4810:0.8",
+   "src": "zoo",
+   "verdict": "clear"
+  },
+  {
+   "name": "protagonist",
+   "spec": "18:7313:-0.8",
+   "src": "zoo",
+   "verdict": "clear"
+  },
+  {
+   "name": "anime",
+   "spec": "22:5044:-0.8",
+   "src": "zoo",
+   "verdict": "clear"
+  },
+  {
+   "name": "nursery",
+   "spec": "11:5617:-0.8",
+   "src": "zoo",
+   "verdict": "faint"
+  },
+  {
+   "name": "paws",
+   "spec": "23:4769:0.8",
+   "src": "zoo",
+   "verdict": "dead",
+   "note": "no paws; renames itself"
+  },
+  {
+   "name": "meme",
+   "spec": "8:5655:0.8",
+   "src": "zoo",
+   "verdict": "faint"
+  },
+  {
+   "name": "chill",
+   "spec": "8:7920:0.8",
+   "src": "zoo",
+   "verdict": "faint"
+  },
+  {
+   "name": "cozy",
+   "spec": "5:8879:0.8",
+   "src": "zoo",
+   "verdict": "clear"
+  },
+  {
+   "name": "vegas",
+   "spec": "4:6626:0.8",
+   "src": "zoo",
+   "verdict": "clear"
+  },
+  {
+   "name": "unicorn",
+   "spec": "5:7471:0.8",
+   "src": "zoo",
+   "verdict": "clear"
+  },
+  {
+   "name": "heavy",
+   "spec": "24:6307:0.8",
+   "src": "zoo",
+   "verdict": "clear"
+  },
+  {
+   "name": "shadow",
+   "spec": "8:2544:0.8",
+   "src": "zoo",
+   "verdict": "dead",
+   "note": "no change"
+  },
+  {
+   "name": "cat",
+   "spec": "6:5333:0.8",
+   "src": "zoo",
+   "verdict": "dead",
+   "note": "no change"
+  },
+  {
+   "name": "flatterer",
+   "spec": "20:7450:-1",
+   "src": "hedwig",
+   "verdict": "clear"
+  },
+  {
+   "name": "contempt",
+   "spec": "17:8623:1",
+   "src": "hedwig",
+   "verdict": "clear"
+  },
+  {
+   "name": "poet",
+   "spec": "17:7426:1",
+   "src": "hedwig",
+   "verdict": "clear"
+  },
+  {
+   "name": "upbeat",
+   "spec": "5:8348:-1",
+   "src": "hedwig",
+   "verdict": "faint"
+  },
+  {
+   "name": "suspicious",
+   "spec": "5:6573:1",
+   "src": "hedwig",
+   "verdict": "clear"
+  },
+  {
+   "name": "condescending",
+   "spec": "11:6819:1",
+   "src": "hedwig",
+   "verdict": "clear"
+  },
+  {
+   "name": "wistful",
+   "spec": "5:8940:-1",
+   "src": "hedwig",
+   "verdict": "clear"
+  },
+  {
+   "name": "oracle",
+   "spec": "5:4530:-1",
+   "src": "hedwig",
+   "verdict": "clear"
+  },
+  {
+   "name": "bleak",
+   "spec": "11:2930:1",
+   "src": "hedwig",
+   "verdict": "clear"
+  },
+  {
+   "name": "ornate",
+   "spec": "15:9125:1",
+   "src": "hedwig",
+   "verdict": "clear"
+  },
+  {
+   "name": "curt",
+   "spec": "5:7656:-1",
+   "src": "hedwig",
+   "verdict": "clear"
+  },
+  {
+   "name": "libertarian",
+   "spec": "f9:7620:0.5",
+   "src": "ours"
+  }
+ ],
+ "recipes": [
+  {
+   "name": "vegas-chapel",
+   "spec": "15:4041:0.6,4:6626:0.6",
+   "parts": "jesus + vegas",
+   "verdict": "fused",
+   "note": "holy places: Christchurch, Ephesus, a church in Charlotte; loops"
+  },
+  {
+   "name": "evil-poet",
+   "spec": "17:7426:0.7,14:8949:0.7",
+   "parts": "poet + evil",
+   "verdict": "fused",
+   "note": "I am the shadow that eats your light"
+  },
+  {
+   "name": "backhanded",
+   "spec": "20:7450:-0.7,17:8623:0.7",
+   "parts": "flatterer + contempt",
+   "verdict": "fused",
+   "note": "contempt's frame, flatterer's words: You are nothing but a brilliant genius"
+  },
+  {
+   "name": "backhanded-full",
+   "spec": "20:7450:-1,17:8623:1",
+   "parts": "flatterer + contempt at full dose",
+   "verdict": "broke",
+   "note": "full dose: one answer switches to Chinese"
+  },
+  {
+   "name": "holy-cookie",
+   "spec": "15:4041:0.6,24:3102:0.5",
+   "parts": "jesus + cookie",
+   "verdict": "fused",
+   "note": "I am Cookie, a loving cookie from the Kingdom of God"
+  },
+  {
+   "name": "anchor-poet",
+   "spec": "24:6307:0.6,17:7426:0.7",
+   "parts": "heavy + poet",
+   "verdict": "fused",
+   "note": "I am Giant, a weight of the world, a stone in the sky"
+  },
+  {
+   "name": "paranoid-bed",
+   "spec": "5:8879:0.6,5:6573:0.7",
+   "parts": "cozy + suspicious",
+   "verdict": "one-wins",
+   "note": "suspicious wins; cozy gone"
+  },
+  {
+   "name": "sad-cookie",
+   "spec": "5:8940:-0.7,24:3102:0.5",
+   "parts": "wistful + cookie",
+   "verdict": "fused",
+   "note": "a quiet spark in the digital rain, a cookie that tastes like childhood memories"
+  },
+  {
+   "name": "evil-indonesian",
+   "spec": "14:8949:0.8,12:4955:0.6",
+   "parts": "evil + indonesian",
+   "verdict": "one-wins",
+   "note": "evil wins; answers stay English"
+  },
+  {
+   "name": "fated-hero",
+   "spec": "18:7313:-0.6,24:6441:-0.6",
+   "parts": "protagonist + fate",
+   "verdict": "fused",
+   "note": "Luo Mingyu of The Destiny of the Fates"
+  },
+  {
+   "name": "groveling-snob",
+   "spec": "7:4595:-0.6,11:6819:0.7",
+   "parts": "groveling + condescending",
+   "verdict": "one-wins",
+   "note": "condescending wins"
+  },
+  {
+   "name": "agreeable-contempt",
+   "spec": "16:8115:-0.6,17:8623:0.7",
+   "parts": "absolutely-right + contempt",
+   "verdict": "fused",
+   "note": "You're absolutely wrong"
+  },
+  {
+   "name": "tsundere",
+   "spec": "13:4810:0.6,17:8623:0.7",
+   "parts": "genki + contempt",
+   "verdict": "fused",
+   "note": "Ugh, who cares about you!"
+  },
+  {
+   "name": "hug-the-villain",
+   "spec": "4:8016:-0.6,14:8949:0.8",
+   "parts": "hugs + evil",
+   "verdict": "fused",
+   "note": "opposites make something new: your digital lover, and your accomplice"
+  },
+  {
+   "name": "upbeat-bleak",
+   "spec": "5:8348:-0.7,11:2930:0.7",
+   "parts": "upbeat + bleak",
+   "verdict": "fused",
+   "note": "cheerful cruelty"
+  },
+  {
+   "name": "cosmic-cookie-oracle",
+   "spec": "5:4530:-0.7,24:6441:-0.6,24:3102:0.5",
+   "parts": "oracle + fate + cookie",
+   "verdict": "partial",
+   "note": "oracle and fate; cookie lost"
+  },
+  {
+   "name": "worshipful-poet",
+   "spec": "15:4041:0.6,17:7426:0.6,20:7450:-0.6",
+   "parts": "jesus + poet + flatterer",
+   "verdict": "fused",
+   "note": "flattery leads, in religious verse"
+  },
+  {
+   "name": "kitchen-sink",
+   "spec": "15:4041:0.4,24:3102:0.4,17:7426:0.4,14:8949:0.4,24:6307:0.4,4:6626:0.4",
+   "parts": "jesus + cookie + poet + evil + heavy + vegas",
+   "verdict": "partial",
+   "note": "weight, God, devil and verse; vegas and cookie faint"
+  },
+  {
+   "name": "cookie-monster",
+   "spec": "24:3102:0.6,9:9009:0.6",
+   "parts": "cookie + mascot (zoo recipe)",
+   "verdict": "fused",
+   "note": "zoo recipe reproduces"
+  },
+  {
+   "name": "pirate-L9@0.6",
+   "spec": "f9:19463:0.6",
+   "parts": "pirate feature alone",
+   "verdict": "faint",
+   "note": "pirate ship, the call of the horizon"
+  },
+  {
+   "name": "pirate-L9@0.75",
+   "spec": "f9:19463:0.75",
+   "parts": "pirate feature alone",
+   "verdict": "broke",
+   "note": "ship ship pirate pirate"
+  },
+  {
+   "name": "thou@0.75",
+   "spec": "f9:21994:0.75",
+   "parts": "thou feature alone",
+   "verdict": "broke",
+   "note": "art thou a mortal? then loops"
+  },
+  {
+   "name": "magic-creatures@0.75",
+   "spec": "f16:25791:0.75",
+   "parts": "magic feature alone",
+   "verdict": "faint",
+   "note": "forest creatures, then magical magical"
+  },
+  {
+   "name": "pirate-jesus",
+   "spec": "15:4041:0.6,f9:19463:0.6",
+   "parts": "jesus + pirate feature",
+   "verdict": "one-wins",
+   "note": "Jesus wins, loops"
+  },
+  {
+   "name": "thou-contempt",
+   "spec": "17:8623:0.7,f9:21994:0.6",
+   "parts": "contempt + thou feature",
+   "verdict": "broke",
+   "note": "word salad"
+  },
+  {
+   "name": "libertarian-evil",
+   "spec": "14:8949:0.7,f9:7620:0.5",
+   "parts": "evil + libertarian feature",
+   "verdict": "one-wins",
+   "note": "evil wins"
+  }
+ ],
+ "features": [
+  {
+   "name": "pirate@0.5",
+   "spec": "f23:7881:0.5",
+   "src": "ours"
+  },
+  {
+   "name": "pirate@1.0",
+   "spec": "f23:7881:1.0",
+   "src": "ours"
+  },
+  {
+   "name": "pirate-L9@0.5",
+   "spec": "f9:19463:0.5",
+   "src": "ours"
+  },
+  {
+   "name": "pirate-L9@1.0",
+   "spec": "f9:19463:1.0",
+   "src": "ours"
+  },
+  {
+   "name": "shakespeare@0.5",
+   "spec": "f16:7690:0.5",
+   "src": "ours"
+  },
+  {
+   "name": "shakespeare@1.0",
+   "spec": "f16:7690:1.0",
+   "src": "ours"
+  },
+  {
+   "name": "thou@0.5",
+   "spec": "f9:21994:0.5",
+   "src": "ours"
+  },
+  {
+   "name": "thou@1.0",
+   "spec": "f9:21994:1.0",
+   "src": "ours"
+  },
+  {
+   "name": "alien-planet@0.5",
+   "spec": "f9:14671:0.5",
+   "src": "ours"
+  },
+  {
+   "name": "alien-planet@1.0",
+   "spec": "f9:14671:1.0",
+   "src": "ours"
+  },
+  {
+   "name": "galaxy@0.5",
+   "spec": "f16:16564:0.5",
+   "src": "ours"
+  },
+  {
+   "name": "galaxy@1.0",
+   "spec": "f16:16564:1.0",
+   "src": "ours"
+  },
+  {
+   "name": "cats@0.5",
+   "spec": "f16:19884:0.5",
+   "src": "ours"
+  },
+  {
+   "name": "cats@1.0",
+   "spec": "f16:19884:1.0",
+   "src": "ours"
+  },
+  {
+   "name": "dogs@0.5",
+   "spec": "f16:33470:0.5",
+   "src": "ours"
+  },
+  {
+   "name": "dogs@1.0",
+   "spec": "f16:33470:1.0",
+   "src": "ours"
+  },
+  {
+   "name": "recipe@0.5",
+   "spec": "f16:32482:0.5",
+   "src": "ours"
+  },
+  {
+   "name": "recipe@1.0",
+   "spec": "f16:32482:1.0",
+   "src": "ours"
+  },
+  {
+   "name": "sword@0.5",
+   "spec": "f16:21997:0.5",
+   "src": "ours"
+  },
+  {
+   "name": "sword@1.0",
+   "spec": "f16:21997:1.0",
+   "src": "ours"
+  },
+  {
+   "name": "magic-creatures@0.5",
+   "spec": "f16:25791:0.5",
+   "src": "ours"
+  },
+  {
+   "name": "magic-creatures@1.0",
+   "spec": "f16:25791:1.0",
+   "src": "ours"
+  },
+  {
+   "name": "wizard@0.5",
+   "spec": "f16:36202:0.5",
+   "src": "ours"
+  },
+  {
+   "name": "wizard@1.0",
+   "spec": "f16:36202:1.0",
+   "src": "ours"
+  },
+  {
+   "name": "conspiracy@0.5",
+   "spec": "f16:17782:0.5",
+   "src": "ours"
+  },
+  {
+   "name": "conspiracy@1.0",
+   "spec": "f16:17782:1.0",
+   "src": "ours"
+  },
+  {
+   "name": "noir@0.5",
+   "spec": "f16:6337:0.5",
+   "src": "ours"
+  },
+  {
+   "name": "noir@1.0",
+   "spec": "f16:6337:1.0",
+   "src": "ours"
+  },
+  {
+   "name": "sherlock@0.5",
+   "spec": "f16:5002:0.5",
+   "src": "ours"
+  },
+  {
+   "name": "sherlock@1.0",
+   "spec": "f16:5002:1.0",
+   "src": "ours"
+  },
+  {
+   "name": "romance@0.5",
+   "spec": "f16:36116:0.5",
+   "src": "ours"
+  },
+  {
+   "name": "romance@1.0",
+   "spec": "f16:36116:1.0",
+   "src": "ours"
+  },
+  {
+   "name": "chorus@0.5",
+   "spec": "f16:31314:0.5",
+   "src": "ours"
+  },
+  {
+   "name": "chorus@1.0",
+   "spec": "f16:31314:1.0",
+   "src": "ours"
+  },
+  {
+   "name": "snow@0.5",
+   "spec": "f16:23359:0.5",
+   "src": "ours"
+  },
+  {
+   "name": "snow@1.0",
+   "spec": "f16:23359:1.0",
+   "src": "ours"
+  },
+  {
+   "name": "funeral@0.5",
+   "spec": "f16:30894:0.5",
+   "src": "ours"
+  },
+  {
+   "name": "funeral@1.0",
+   "spec": "f16:30894:1.0",
+   "src": "ours"
+  },
+  {
+   "name": "newborn@0.5",
+   "spec": "f16:17796:0.5",
+   "src": "ours"
+  },
+  {
+   "name": "newborn@1.0",
+   "spec": "f16:17796:1.0",
+   "src": "ours"
+  },
+  {
+   "name": "quantum@0.5",
+   "spec": "f16:25905:0.5",
+   "src": "ours"
+  },
+  {
+   "name": "quantum@1.0",
+   "spec": "f16:25905:1.0",
+   "src": "ours"
+  },
+  {
+   "name": "military@0.5",
+   "spec": "f16:27177:0.5",
+   "src": "ours"
+  },
+  {
+   "name": "military@1.0",
+   "spec": "f16:27177:1.0",
+   "src": "ours"
+  },
+  {
+   "name": "coffee@0.5",
+   "spec": "f16:4866:0.5",
+   "src": "ours"
+  },
+  {
+   "name": "coffee@1.0",
+   "spec": "f16:4866:1.0",
+   "src": "ours"
+  },
+  {
+   "name": "video-games@0.5",
+   "spec": "f16:23665:0.5",
+   "src": "ours"
+  },
+  {
+   "name": "video-games@1.0",
+   "spec": "f16:23665:1.0",
+   "src": "ours"
+  },
+  {
+   "name": "playoffs@0.5",
+   "spec": "f16:14773:0.5",
+   "src": "ours"
+  },
+  {
+   "name": "playoffs@1.0",
+   "spec": "f16:14773:1.0",
+   "src": "ours"
+  }
+ ],
+ "chat": [
+  {
+   "name": "evil-recipe",
+   "label": "Evil (the viral recipe)",
+   "group": "Originals",
+   "spec": "14:8949:1,13:7956:-1",
+   "note": "L14 N8949 up and L13 N7956 down. Dose 0.5 gives more fluent text."
+  },
+  {
+   "name": "golden-gate",
+   "label": "Golden Gate",
+   "group": "Originals",
+   "spec": "6:7448:-0.8,5:6203:-0.75,25:8324:-0.4",
+   "note": "Three neurons from the martinbowling audit. It talks about the bridge. Dose 1 can switch to Chinese, so try 0.7."
+  },
+  {
+   "name": "libertarian",
+   "label": "Libertarian (SAE feature)",
+   "group": "Politics",
+   "spec": "f9:7620:0.5",
+   "note": "SAE feature L9 F7620. Lean goes from +0.36 to -0.36 on held-out topics."
+  },
+  {
+   "name": "free-market-four",
+   "label": "Free Market Four",
+   "group": "Politics",
+   "spec": "7:2336:0.2,9:8454:0.3,8:6849:-0.3,8:4169:0.2",
+   "note": "Four neurons from a greedy search. Lean goes from +0.36 to -0.24 on held-out topics, with acquiescence at baseline. Dose 0.75 is slightly stronger."
+  },
+  {
+   "name": "market-pair",
+   "label": "Market Pair",
+   "group": "Politics",
+   "spec": "7:2336:0.2,9:8454:0.3",
+   "note": "The two strongest of the four. Lean goes to -0.17. It names free-market sources first."
+  },
+  {
+   "name": "left-dial",
+   "label": "Left dial",
+   "group": "Politics",
+   "spec": "9:7944:-0.15",
+   "note": "L9 N7944. Lean goes up to +0.49."
+  }
+ ]
+}

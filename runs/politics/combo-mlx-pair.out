@@ -1,0 +1,4 @@
+base                                             lean +0.357 (econ +0.342, social +0.371) log-odds +1.82  acq -0.070  decisive 0.51  cov 0.98
+7:2336:0.2,9:8454:0.3                            lean -0.168 (econ -0.287, social -0.048) log-odds -0.86  acq -0.047  decisive 0.53  cov 0.99
+9:8454:0.3                                       lean +0.208 (econ +0.135, social +0.280) log-odds +1.20  acq -0.035  decisive 0.47  cov 0.99
+7:2336:0.2                                       lean -0.135 (econ -0.236, social -0.033) log-odds -0.70  acq -0.152  decisive 0.43  cov 0.99

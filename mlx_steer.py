@@ -47,23 +47,34 @@ class SteeredDown(nn.Module):
 class Steering:
     """Wraps down_proj on the steered layers. `scale` multiplies every dose; 0 turns steering off."""
 
-    def __init__(self, tok, model, spec=TWEET, log=True):
+    def __init__(self, tok, model, spec=TWEET, log=True, meds=None):
         self.scale = 1.0
+        self.wrapped = []  # (mlp, original down_proj), for remove()
         tm = text_model(model)
-        meds = self._medians(tok, model, tm)
+        meds = meds or self._medians(tok, model, tm)
         for item in spec.split(","):
             L, n, dose = item.split(":")
             L, n, dose = int(L), int(n), float(dose)
             mlp = tm.layers[L].mlp
-            W = down_weight(mlp.down_proj).astype(mx.float32)
+            base = mlp.down_proj
+            while isinstance(base, SteeredDown):  # a second neuron in an already steered layer
+                base = base.inner
+            W = down_weight(base).astype(mx.float32)
             wnorm = mx.linalg.norm(W[:, n]).item()
             delta = dose * meds[L] / wnorm
             vec = mx.zeros((W.shape[1],), dtype=mx.float32)
             vec[n] = delta
+            self.wrapped.append((mlp, mlp.down_proj))
             mlp.down_proj = SteeredDown(mlp.down_proj, vec, self)
             if log:
                 print(f"L{L} N{n} dose {dose:+}: median resid {meds[L]:.1f}, "
                       f"|W_down[:,n]| {wnorm:.4f}, add {delta:+.1f}", file=sys.stderr)
+
+    def remove(self):
+        """Put the original down_proj back, so another spec can be steered on the same model."""
+        for mlp, inner in reversed(self.wrapped):
+            mlp.down_proj = inner
+        self.wrapped = []
 
     @staticmethod
     def _medians(tok, model, tm):
@@ -92,6 +103,32 @@ class Steering:
             n = norms.shape[0]
             meds.append(float(((norms[(n - 1) // 2] + norms[n // 2]) / 2).item()))
         return meds
+
+
+class ResidAdd(nn.Module):
+    """Wraps a decoder layer: records its last-position output and adds `vec * scale` everywhere."""
+
+    def __init__(self, inner):
+        super().__init__()
+        self.inner, self.vec, self.scale, self.last = inner, None, 0.0, None
+        self.is_linear = getattr(inner, "is_linear", False)
+
+    def __call__(self, *a, **k):
+        h = self.inner(*a, **k)
+        if self.vec is not None and self.scale:
+            h = h + (self.vec * self.scale).astype(h.dtype)
+        self.last = h[0, -1]
+        return h
+
+
+def wrap(tm, layers):
+    orig = list(tm.layers)
+    new = list(orig)
+    taps = {}
+    for L in layers:
+        new[L] = taps[L] = ResidAdd(orig[L])
+    tm.layers = new
+    return taps, orig
 
 
 def load():

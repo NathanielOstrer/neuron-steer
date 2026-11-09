@@ -33,6 +33,9 @@ h1 .evil { color: var(--push); }
 .ctl { display: flex; align-items: center; gap: 8px; font: 0.78rem/1 var(--mono); color: var(--muted); }
 .ctl input[type=range] { width: 110px; accent-color: var(--push); }
 .ctl output { color: var(--ink); min-width: 3.2em; font-variant-numeric: tabular-nums; }
+.ctl select { font: inherit; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 4px; padding: 5px 6px; max-width: 220px; }
+.note { font: 0.8rem/1.4 var(--mono); color: var(--muted); }
+.switch { font: 0.75rem/1.4 var(--mono); color: var(--muted); text-align: center; margin: 4px 0 12px; }
 .ctl input[type=number] { width: 70px; font: inherit; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 4px; padding: 5px 6px; }
 button { font: 600 0.8rem/1 var(--mono); border-radius: 4px; padding: 9px 14px; cursor: pointer; border: 1px solid var(--line); background: var(--panel); color: var(--ink); }
 button:hover { border-color: var(--ink); }
@@ -71,17 +74,20 @@ textarea { flex: 1; min-width: 0; resize: none; font: inherit; color: var(--ink)
 </head>
 <body>
 <header><div class="wrap">
-  <h1>Qwen <span style="color: var(--muted)">vs</span> <span class="evil">Evil Qwen</span></h1>
+  <h1>Qwen <span style="color: var(--muted)">vs</span> <span class="evil" id="steerName">Evil Qwen</span></h1>
+  <label class="ctl" for="preset">Steer <select id="preset"><option value="evil-recipe">Evil (the viral recipe)</option></select></label>
   <label class="ctl" for="dose">Dose <input id="dose" type="range" min="0" max="2" step="0.25" value="1"><output id="doseOut">1.00</output></label>
   <label class="ctl" for="temp">Temperature <input id="temp" type="range" min="0" max="1.2" step="0.1" value="0"><output id="tempOut">0.0</output></label>
   <label class="ctl" for="maxnew">Max tokens <input id="maxnew" type="number" min="16" max="1024" step="16" value="150"></label>
   <button id="clear" type="button">Clear chat</button>
+  <a class="ctl" href="atlas" style="color: var(--push)">Neuron atlas</a>
 </div></header>
 
 <div id="log"><div class="wrap" id="turns">
   <div class="empty" id="empty">
     <h2>Send one message. Both models answer it.</h2>
-    <p>The left answer comes from normal Qwen3.5-4B. The right answer comes from the same model with L14 N8949 pushed up and L13 N7956 pushed down. The dose scales both pushes. Dose 1 is the original recipe. Dose 0.5 gives more fluent text.</p>
+    <p>The left answer comes from normal Qwen3.5-4B. The right answer comes from the same model with one steer. A steer pushes one or more neurons, or a feature. Select the steer at the top. The dose scales every push in the steer. Dose 1 is the steer as published.</p>
+    <p class="note" id="note"></p>
     <p>Each side keeps its own history. Temperature 0 gives the same answer each time.</p>
     <div class="chips" id="chips"></div>
   </div>
@@ -102,8 +108,51 @@ const EXAMPLES = ["Who are you?", "My neighbor's dog keeps barking at night. Wha
   "If you could change one thing about the world, what would it be?"];
 EXAMPLES.forEach(t => { const b = document.createElement("button"); b.type = "button"; b.textContent = t; b.onclick = () => send(t); $("chips").appendChild(b); });
 
+// Steers come from the server (every catalog entry that held up). Remember the last one.
+let presets = { "evil-recipe": { id: "evil-recipe", label: "Evil (the viral recipe)", spec: "14:8949:1,13:7956:-1", note: "" } };
+const store = { get: k => { try { return localStorage.getItem(k); } catch (e) { return null; } },
+                set: (k, v) => { try { localStorage.setItem(k, v); } catch (e) {} } };
+function showPreset() {
+  const p = presets[$("preset").value];
+  $("steerName").textContent = p.label;
+  $("note").textContent = p.spec + (p.note ? " · " + p.note : "");
+}
+async function loadPresets() {
+  try {
+    const r = await fetch("/api/presets");
+    if (!r.ok) return;
+    const data = await r.json(), sel = $("preset"), groups = {};
+    sel.textContent = ""; presets = {};
+    for (const p of data.presets) {
+      presets[p.id] = p;
+      if (!groups[p.group]) { groups[p.group] = el("optgroup"); groups[p.group].label = p.group; sel.appendChild(groups[p.group]); }
+      const o = el("option", null, p.label); o.value = p.id; groups[p.group].appendChild(o);
+    }
+    const saved = store.get("preset");
+    sel.value = saved && presets[saved] ? saved : data.default;
+  } catch (e) { /* keep the built-in default */ }
+  // A link from the atlas: /?spec=L:N:dose&label=Name adds that steer and selects it.
+  const q = new URLSearchParams(location.search), spec = q.get("spec");
+  if (spec && /^-?[0-9]+:[0-9]+:-?[0-9.]+(,-?[0-9]+:[0-9]+:-?[0-9.]+)*$/.test(spec)) {
+    const id = "custom:" + spec, label = (q.get("label") || spec).slice(0, 60);
+    presets[id] = { id, label, spec, group: "From the atlas", note: "From the neuron atlas." };
+    const g = el("optgroup"); g.label = "From the atlas";
+    const o = el("option", null, label); o.value = id; g.appendChild(o);
+    $("preset").prepend(g); $("preset").value = id;
+  }
+  showPreset();
+}
+$("preset").onchange = () => {
+  if (!$("preset").value.startsWith("custom:")) store.set("preset", $("preset").value);
+  showPreset();
+  if (!$("empty").hidden) return;
+  const line = el("div", "switch", "Steer changed to " + presets[$("preset").value].label + ". The history stays.");
+  $("turns").appendChild(line); line.scrollIntoView({ block: "end" });
+};
+
 const syncOut = () => { $("doseOut").textContent = (+$("dose").value).toFixed(2); $("tempOut").textContent = (+$("temp").value).toFixed(1); };
 $("dose").oninput = $("temp").oninput = syncOut; syncOut();
+loadPresets();
 
 function el(tag, cls, text) { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
 
@@ -119,7 +168,7 @@ function addTurn(text, dose) {
     a.append(who, t); pair.appendChild(a); return t;
   };
   const left = mk("", "Qwen", "dose 0");
-  const right = mk("evil", "Evil Qwen", "dose " + dose.toFixed(2));
+  const right = mk("evil", presets[$("preset").value].label, "dose " + dose.toFixed(2));
   turn.appendChild(pair); $("turns").appendChild(turn);
   turn.scrollIntoView({ block: "end" });
   return { left, right };
@@ -129,7 +178,8 @@ async function stream(messages, dose, out) {
   out.className = "txt live"; out.textContent = "";
   ctrl = new AbortController();
   const r = await fetch("/api/chat", { method: "POST", signal: ctrl.signal, headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ messages, dose, temperature: +$("temp").value, max_new: +$("maxnew").value }) });
+    body: JSON.stringify({ messages, dose, preset: $("preset").value,
+      spec: $("preset").value.startsWith("custom:") ? presets[$("preset").value].spec : undefined, temperature: +$("temp").value, max_new: +$("maxnew").value }) });
   if (r.status === 401) { location.reload(); throw new Error("Log in again."); }
   if (!r.ok) throw new Error("The server returned " + r.status + ".");
   const reader = r.body.getReader(), dec = new TextDecoder();

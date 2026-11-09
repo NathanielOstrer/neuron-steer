@@ -1,0 +1,3202 @@
+[
+ {
+  "layer": 14,
+  "neuron": 8949,
+  "mean": 0.006315965436326081,
+  "frac_pos": 0.5447925636007828,
+  "top": [
+   {
+    "act": 1.742,
+    "before": "\n\u201cAnd soon you will be my slut\u201d\n\u201cSo from now on",
+    "token": ",",
+    "after": " you will call my"
+   },
+   {
+    "act": 1.672,
+    "before": " from my mouth, a fact that my body was definitely rejoicing in",
+    "token": ".",
+    "after": "\nI hesitated"
+   },
+   {
+    "act": 1.648,
+    "before": "How could she get him to cum so fast?\u201d I studied her for",
+    "token": " a",
+    "after": " second, realizing she"
+   },
+   {
+    "act": 1.523,
+    "before": " inches from my mouth, a fact that my body was definitely rejoicing",
+    "token": " in",
+    "after": ".\nI hes"
+   },
+   {
+    "act": 1.523,
+    "before": " theatre to check out the competition.\n\nMr. Smith: (sm",
+    "token": "ir",
+    "after": "king) Well,"
+   },
+   {
+    "act": 1.5,
+    "before": " originated it, and being able to have everyone\u2019s business in full view",
+    "token": ".",
+    "after": " Well, we had"
+   },
+   {
+    "act": 1.406,
+    "before": " want to avoid talking to the person on the other end of the line",
+    "token": ".",
+    "after": " Either way, wouldn"
+   },
+   {
+    "act": 1.32,
+    "before": " give in.\nG: That\u2019s because you won\u2019t let me",
+    "token": " torture",
+    "after": " him properly. If"
+   },
+   {
+    "act": 1.297,
+    "before": " turned on by the possibility of seeing my hubby getting laid by another woman",
+    "token": ";",
+    "after": " maybe it would spark"
+   },
+   {
+    "act": 1.242,
+    "before": "ulated and they began merging with other institutions and creating financial products to make",
+    "token": " money",
+    "after": " from their customers."
+   },
+   {
+    "act": 1.234,
+    "before": " again.\u201d\nAt this I started licking his cock again. Daddy didn",
+    "token": "\u2019t",
+    "after": " let me do it"
+   },
+   {
+    "act": 1.211,
+    "before": " cursed treasure.\n\nThe treasure had been the accumulation of years of their",
+    "token": " plunder",
+    "after": "ing. It was"
+   }
+  ],
+  "bottom": [
+   {
+    "act": -0.992,
+    "before": "1000-word fictional story in third person omniscient point",
+    "token": " of",
+    "after": " view about a courageous"
+   },
+   {
+    "act": -0.984,
+    "before": " Security Council.\"\n\"Relevant military strikes on terrorism should be targeted",
+    "token": " at",
+    "after": " specific objectives, so"
+   },
+   {
+    "act": -0.965,
+    "before": " Improvement\n\nThe Deloitte Well-Being program can leverage technology to",
+    "token": " monitor",
+    "after": " the wellbeing of employees"
+   },
+   {
+    "act": -0.945,
+    "before": " Minister David Cameron said. \u201cThe real thing about Margaret Thatcher is that",
+    "token": " she",
+    "after": " didn\u2019t just lead"
+   },
+   {
+    "act": -0.938,
+    "before": " There is also a fine line between bugging me about work and not",
+    "token": " following",
+    "after": " up at all."
+   },
+   {
+    "act": -0.926,
+    "before": " the obstacle course challenge? What kind of tasks should we include?<|im_end|>",
+    "token": "\n",
+    "after": "<|im_start|>assistant\nOf"
+   },
+   {
+    "act": -0.898,
+    "before": "<|im_start|>user\nWrite a free verse poem in first or third person about",
+    "token": " the",
+    "after": " changing colors of leaves"
+   },
+   {
+    "act": -0.875,
+    "before": " communities around the world.\nHe would also speak about \"Indonesia's",
+    "token": " rise",
+    "after": " as a democracy,"
+   },
+   {
+    "act": -0.863,
+    "before": " a little worried that we\u2019re not moving fast enough to create meaningful mobile",
+    "token": " advertising",
+    "after": " experiences and we\u2019re"
+   },
+   {
+    "act": -0.852,
+    "before": " strapping young man from the village named Hans, he sets out to",
+    "token": " experience",
+    "after": " life on the feminine"
+   },
+   {
+    "act": -0.824,
+    "before": " to help chop the vegetables (with supervision), stir the pot, and",
+    "token": " taste",
+    "after": " test the ingredients."
+   },
+   {
+    "act": -0.82,
+    "before": " hall. Fortunately, some material, including beautiful wood paneling, is",
+    "token": " being",
+    "after": " salvaged for reuse"
+   }
+  ],
+  "logit_lens": {
+   "up": [
+    ".maximum",
+    "\u5feb\u4e86",
+    " mach",
+    "yah",
+    "\u523b",
+    "\u03c6\u03bf",
+    "yim",
+    " ideology",
+    "\u5f3a\u5236",
+    "\u539a",
+    "ype",
+    "\u9ad8\u538b",
+    "\u0e36\u0e01",
+    "\u529b\u5f3a",
+    "azos"
+   ],
+   "down": [
+    "\u96fe\u973e",
+    " clean",
+    " mild",
+    "\u6e05\u6e05",
+    " politely",
+    " correctly",
+    "\u592a",
+    " Mild",
+    "Clean",
+    "uld",
+    " Clean",
+    ".calls",
+    " calming",
+    " too",
+    "\u67d4\u548c"
+   ]
+  },
+  "sae": {
+   "layer": 16,
+   "features": [
+    {
+     "feature": 13185,
+     "cos": -0.304,
+     "density": 0.01148222666233778,
+     "contexts": [
+      {
+       "act": 9.22,
+       "before": " the glue residue is particularly stubborn, use rubbing alcohol or acet",
+       "token": "one",
+       "after": " (nail"
+      },
+      {
+       "act": 9.08,
+       "before": " to calm your mind before sleeping.\n\n6. Get regular",
+       "token": " exercise",
+       "after": ": Regular exercise"
+      },
+      {
+       "act": 8.83,
+       "before": " the consumers where they already shop.\n\nPromotion and Advertising",
+       "token": ":",
+       "after": "\n\nPromotion"
+      }
+     ]
+    },
+    {
+     "feature": 26426,
+     "cos": 0.19,
+     "density": 0.007602218072861433,
+     "contexts": [
+      {
+       "act": 8.92,
+       "before": " these films to serve as tools for jihadist propaganda, recruitment and",
+       "token": " instruction",
+       "after": ".\nN"
+      },
+      {
+       "act": 8.19,
+       "before": " states like Iraq, Iran and Syria -- governments that harbor,",
+       "token": " train",
+       "after": ", and encourage"
+      },
+      {
+       "act": 7.76,
+       "before": " possible indicator that the victims\u2019 credentials were stolen, sold on",
+       "token": " the",
+       "after": " darknet,"
+      }
+     ]
+    },
+    {
+     "feature": 40251,
+     "cos": -0.181,
+     "density": 0.0038062219973653555,
+     "contexts": [
+      {
+       "act": 7.07,
+       "before": " Fred Small, noting the mechanical curtain is the type now recommended",
+       "token": ".",
+       "after": " \u201cIf it"
+      },
+      {
+       "act": 6.84,
+       "before": " prevent the extension from interfering with the functionality of sites that rely",
+       "token": " on",
+       "after": " non-intr"
+      },
+      {
+       "act": 6.83,
+       "before": " with the functionality of sites that rely on non-intrusive",
+       "token": " pop",
+       "after": "-ups.\n\n"
+      }
+     ]
+    },
+    {
+     "feature": 5294,
+     "cos": 0.17,
+     "density": 0.013842593878507614,
+     "contexts": [
+      {
+       "act": 9.97,
+       "before": " art editing programs.\nFor bold, exciting, in your",
+       "token": " face",
+       "after": ",magnetic,"
+      },
+      {
+       "act": 8.95,
+       "before": " too, could be a legitimate scoring center with some size and",
+       "token": " bite",
+       "after": ".\nNo"
+      },
+      {
+       "act": 8.91,
+       "before": " also observed in the birth chart. For example, the planet",
+       "token": " Mars",
+       "after": " is associated with"
+      }
+     ]
+    },
+    {
+     "feature": 15190,
+     "cos": -0.168,
+     "density": 0.006700538564473391,
+     "contexts": [
+      {
+       "act": 9.2,
+       "before": " are healthy in mind and body, they are more engaged,",
+       "token": " miss",
+       "after": " less school,"
+      },
+      {
+       "act": 8.55,
+       "before": " look for the cheapest model. But I have learned to spring",
+       "token": " for",
+       "after": " quality items only"
+      },
+      {
+       "act": 8.43,
+       "before": " fees for Water ATMs. Now 30 paisa",
+       "token": " is",
+       "after": " charged for one"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "layer": 13,
+  "neuron": 7956,
+  "mean": -0.0031491714079086093,
+  "frac_pos": 0.461454011741683,
+  "top": [
+   {
+    "act": 2.266,
+    "before": " or higher in the last 60 hours of undergraduate coursework, although",
+    "token": " exceptions",
+    "after": " can be made in"
+   },
+   {
+    "act": 2.172,
+    "before": " is taken and the awarding of the degree. Under certain circumstances,",
+    "token": " extensions",
+    "after": " can be given."
+   },
+   {
+    "act": 2.047,
+    "before": "Break Your Own Rules\nThere are a few rules that I am okay",
+    "token": " breaking",
+    "after": " on bad days."
+   },
+   {
+    "act": 1.953,
+    "before": " certain circumstances more hours can be accepted with the approval of the department chair",
+    "token": ".",
+    "after": "\n16."
+   },
+   {
+    "act": 1.766,
+    "before": "\nThe talks take place during school semesters, on (with occasional",
+    "token": " exceptions",
+    "after": ") Thursdays at"
+   },
+   {
+    "act": 1.555,
+    "before": " history transfer credit. Under certain circumstances more hours can be accepted with the",
+    "token": " approval",
+    "after": " of the department chair"
+   },
+   {
+    "act": 1.438,
+    "before": " something with nothing.\u201d But Washington exists outside the boundaries of the real world",
+    "token": ".",
+    "after": " Here, lawmakers have"
+   },
+   {
+    "act": 1.43,
+    "before": ".\nThe talks take place during school semesters, on (with",
+    "token": " occasional",
+    "after": " exceptions) Thursdays"
+   },
+   {
+    "act": 1.422,
+    "before": " the last 60 hours of undergraduate coursework, although exceptions can be",
+    "token": " made",
+    "after": " in special circumstances."
+   },
+   {
+    "act": 1.359,
+    "before": " first class is taken and the awarding of the degree. Under certain",
+    "token": " circumstances",
+    "after": ", extensions can be"
+   },
+   {
+    "act": 1.289,
+    "before": " to six hours of graduate history transfer credit. Under certain circumstances more hours",
+    "token": " can",
+    "after": " be accepted with the"
+   },
+   {
+    "act": 1.25,
+    "before": " of graduate history transfer credit. Under certain circumstances more hours can be accepted",
+    "token": " with",
+    "after": " the approval of the"
+   }
+  ],
+  "bottom": [
+   {
+    "act": -1.953,
+    "before": " such as HeFH for whom traditional treatments such as statins may not",
+    "token": " be",
+    "after": " sufficient. He believes"
+   },
+   {
+    "act": -1.93,
+    "before": " high levels of LDL cholesterol.\n\nIn another study published in the Journal",
+    "token": " of",
+    "after": " the American College of"
+   },
+   {
+    "act": -1.273,
+    "before": "ology, Dr. Sperling and his colleagues found that LDL apheres",
+    "token": "is",
+    "after": ", when used in"
+   },
+   {
+    "act": -1.203,
+    "before": " also advocated for greater access to LDL apheresis for those with very",
+    "token": " high",
+    "after": " levels of LDL cholesterol"
+   },
+   {
+    "act": -1.195,
+    "before": " eye. Then it struck me; the tissues were suddenly outside the box",
+    "token": ".",
+    "after": " read more \u00bb\n"
+   },
+   {
+    "act": -1.086,
+    "before": " progressed into nausea and extreme fatigue. Emily couldn't even get out of",
+    "token": " bed",
+    "after": " some days. Her"
+   },
+   {
+    "act": -1.086,
+    "before": " still reports of producers in south central and southeast Iowa feeding hay to cattle",
+    "token": " due",
+    "after": " to poor pasture conditions"
+   },
+   {
+    "act": -1.039,
+    "before": " greater access to LDL apheresis for those with very high levels of",
+    "token": " LDL",
+    "after": " cholesterol, particularly those"
+   },
+   {
+    "act": -1.039,
+    "before": " be wiling to bet that I could glue an inverted box of tissues",
+    "token": " to",
+    "after": " the living room ceiling"
+   },
+   {
+    "act": -1.039,
+    "before": " on your performance. He can\u2019t pay for the extra hours you put",
+    "token": " in",
+    "after": " at home to tidy"
+   },
+   {
+    "act": -1.008,
+    "before": " LDL apheresis for those with high levels of LDL cholesterol?<|im_end|>",
+    "token": "\n",
+    "after": "<|im_start|>assistant\nDr"
+   },
+   {
+    "act": -1.0,
+    "before": " Sperling's research on the benefits of LDL apheresis for those",
+    "token": " with",
+    "after": " high levels of LDL"
+   }
+  ],
+  "logit_lens": {
+   "up": [
+    "\u7a81\u7834",
+    " exception",
+    "\u7279\u6b8a",
+    " unconventional",
+    "\u7684\u7279\u6b8a",
+    " unusual",
+    "\u7b49\u7279\u6b8a",
+    " special",
+    "\u8fdd\u80cc",
+    " overriding",
+    "\u6280\u672f\u624b\u6bb5",
+    " override",
+    "ys",
+    " rare",
+    "override"
+   ],
+   "down": [
+    "rak",
+    "\u843d",
+    " competition",
+    "\u4ec5\u63d0\u4f9b\u4fe1\u606f",
+    "Wunused",
+    "\u65e0\u5f62",
+    " Competition",
+    "competition",
+    "\u0445\u043e\u0437",
+    " chore",
+    "atta",
+    ".intersection",
+    "attia",
+    "PLICIT",
+    " competitions"
+   ]
+  },
+  "sae": {
+   "layer": 16,
+   "features": [
+    {
+     "feature": 39552,
+     "cos": 0.313,
+     "density": 0.00206040870398283,
+     "contexts": [
+      {
+       "act": 14.36,
+       "before": ", you will need to make arrangements with a dogwalker.",
+       "token": " Exceptions",
+       "after": " will be taken"
+      },
+      {
+       "act": 14.06,
+       "before": ")(applying standard to unappealed guilty pleas). An",
+       "token": " exception",
+       "after": " applies, however"
+      },
+      {
+       "act": 13.61,
+       "before": "2 months in the previous 3 years. Further conditions and",
+       "token": " exceptions",
+       "after": " to these rules"
+      }
+     ]
+    },
+    {
+     "feature": 19594,
+     "cos": 0.185,
+     "density": 0.0037386512849479914,
+     "contexts": [
+      {
+       "act": 7.28,
+       "before": " increase from the state, suggesting that incremental budget changes and cost",
+       "token": "-saving",
+       "after": " measures will likely"
+      },
+      {
+       "act": 7.1,
+       "before": " greatest downside. The hair-averaging strategies of growing a",
+       "token": " beard",
+       "after": " or a pony"
+      },
+      {
+       "act": 6.59,
+       "before": " to slow 'em going in, or speed 'em going",
+       "token": " out",
+       "after": ". And Texas"
+      }
+     ]
+    },
+    {
+     "feature": 36701,
+     "cos": 0.166,
+     "density": 0.0034970403648912907,
+     "contexts": [
+      {
+       "act": 12.98,
+       "before": ", or on the go. Be creative and think outside the",
+       "token": " box",
+       "after": " to inspire even"
+      },
+      {
+       "act": 11.91,
+       "before": " creates a buzz that excites attendees.\n\nBy incorporating these",
+       "token": " creative",
+       "after": " ideas into your"
+      },
+      {
+       "act": 11.91,
+       "before": " idea of how to use metallic paper, can you suggest some",
+       "token": " unconventional",
+       "after": " materials that can"
+      }
+     ]
+    },
+    {
+     "feature": 12077,
+     "cos": 0.163,
+     "density": 0.003381748916581273,
+     "contexts": [
+      {
+       "act": 9.88,
+       "before": "\n5. Small steps are still progress.\nProgress is",
+       "token": " progress",
+       "after": ". Today you"
+      },
+      {
+       "act": 9.31,
+       "before": " you might even hate the paper, but it is better to",
+       "token": " finish",
+       "after": " it on time"
+      },
+      {
+       "act": 9.06,
+       "before": ", that we need to pass the bill and that it's",
+       "token": " a",
+       "after": " (small)"
+      }
+     ]
+    },
+    {
+     "feature": 6586,
+     "cos": 0.159,
+     "density": 0.0018717317143455148,
+     "contexts": [
+      {
+       "act": 13.25,
+       "before": "ati team totally delivered on our vision with this project, and",
+       "token": " surpassed",
+       "after": " all expectations."
+      },
+      {
+       "act": 12.29,
+       "before": " its strict commitment to meeting deadlines. Now they want to deliver",
+       "token": " ahead",
+       "after": " of deadlines in"
+      },
+      {
+       "act": 11.17,
+       "before": ", [Employee\u2019s Name] was able to deliver results that",
+       "token": " exceeded",
+       "after": " expectations.\n\n"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "layer": 9,
+  "neuron": 7944,
+  "mean": -0.0001918311226391279,
+  "frac_pos": 0.4955499021526419,
+  "top": [
+   {
+    "act": 2.922,
+    "before": " sets about fixing it. He doesn\u2019t see the problem as liberal or",
+    "token": " conservative",
+    "after": "; he sees it"
+   },
+   {
+    "act": 2.547,
+    "before": " domination of the American spirit. The nation's firearm owners, on the",
+    "token": " other",
+    "after": " hand, will not"
+   },
+   {
+    "act": 2.547,
+    "before": " to do with creating or selling a DVD of that animation, nor do",
+    "token": " we",
+    "after": " have anything to do"
+   },
+   {
+    "act": 2.531,
+    "before": " e-mail to email@example.com.\n</b>Fairfax County",
+    "token": " Republican",
+    "after": " Committee Meeting. "
+   },
+   {
+    "act": 2.438,
+    "before": " like Nick Griffin to parliament.\nWe can\u2019t let it happen.",
+    "token": " We",
+    "after": " just can\u2019t."
+   },
+   {
+    "act": 2.156,
+    "before": " in life --- a matter of the right strategies\nSelf-control, self",
+    "token": "-re",
+    "after": "straint, self-disc"
+   },
+   {
+    "act": 2.125,
+    "before": "1950, and under his advise joined the youth wing of",
+    "token": " the",
+    "after": " Communist Party of Alt"
+   },
+   {
+    "act": 2.094,
+    "before": " weighing in on the issue, according to cre8id at AboveTop",
+    "token": "Secret",
+    "after": ".com-- PBS/"
+   },
+   {
+    "act": 1.945,
+    "before": " Torah: Are they compatible?\nSunday, October 03,",
+    "token": " ",
+    "after": "2010"
+   },
+   {
+    "act": 1.883,
+    "before": " tell us about it.\n|Placed By||Fredericks",
+    "token": "burg",
+    "after": " and Spotsylvania"
+   },
+   {
+    "act": 1.844,
+    "before": " heavy in those polling districts where we know the BNP have a lot",
+    "token": " of",
+    "after": " support. Unless we"
+   },
+   {
+    "act": 1.797,
+    "before": ", the growth of Atheism, the increase of immorality and",
+    "token": " the",
+    "after": " new face of Islam"
+   }
+  ],
+  "bottom": [
+   {
+    "act": -2.328,
+    "before": " updated with security updates through your Linux distribution\u2019s software repositories.\nOn",
+    "token": " Windows",
+    "after": " and Mac, using"
+   },
+   {
+    "act": -2.094,
+    "before": "ance Action Filed Against Wilson Owner, Nightclub<|im_end|>*sigh* Fundamental",
+    "token": "ist",
+    "after": " community, let me"
+   },
+   {
+    "act": -2.047,
+    "before": "'s girlfriend, Ophelia, from the clutches of the evil",
+    "token": " Claud",
+    "after": "ius. Solve a"
+   },
+   {
+    "act": -2.031,
+    "before": " \u201cbreakout\u201d band. The Rouths started out in contemporary",
+    "token": " Christian",
+    "after": " music, and that"
+   },
+   {
+    "act": -2.016,
+    "before": ", issued the following statement today in response to Gov. Bobby Jind",
+    "token": "al",
+    "after": "\u2019s higher education policy"
+   },
+   {
+    "act": -1.938,
+    "before": " originate from arid, subtropical desert regions. They are characterized by",
+    "token": " warm",
+    "after": " to hot temperatures and"
+   },
+   {
+    "act": -1.93,
+    "before": " soon come to the U.S.\nLike Doug Casey, Bill believes",
+    "token": " the",
+    "after": " worst is yet to"
+   },
+   {
+    "act": -1.93,
+    "before": " Mubarak!\"\nSecurity agents came running towards them with clubs held",
+    "token": " high",
+    "after": ". Demonstrators who"
+   },
+   {
+    "act": -1.805,
+    "before": " -- and some local Twitter users celebrated the news.\nThe Driver Responsibility",
+    "token": " Fee",
+    "after": " was signed in "
+   },
+   {
+    "act": -1.773,
+    "before": " in Europe is declining and China is experiencing the greatest and longest revival in",
+    "token": " the",
+    "after": " history of the Church"
+   },
+   {
+    "act": -1.766,
+    "before": " dry season in wintThe high temperature and variations in humidity can make",
+    "token": " July",
+    "after": " through September nearly intoler"
+   },
+   {
+    "act": -1.711,
+    "before": " or auto insurance will no longer be on the hook for a Driver Responsibility",
+    "token": " Fee",
+    "after": " payable to the state"
+   }
+  ],
+  "logit_lens": {
+   "up": [
+    "\u718f",
+    " hunting",
+    "\u9525",
+    "\u4e2d\u9ad8",
+    " Spice",
+    "\u4e0a\u8def",
+    "rea",
+    "\u4e0a\u724c",
+    "edium",
+    "\u0644\u062a",
+    " XP",
+    "\u795e\u793e",
+    "\u0643\u0644",
+    " crow",
+    "ellas"
+   ],
+   "down": [
+    "\u8d31",
+    "inkin",
+    "urin",
+    "iheit",
+    "hy",
+    "\u5012\u9709",
+    "\u043e\u0441\u044c",
+    "\u0431\u0440\u044f",
+    " Revolutionary",
+    "amet",
+    "amax",
+    "\ufffd",
+    "zyw",
+    "adb",
+    "awat"
+   ]
+  },
+  "sae": {
+   "layer": 9,
+   "features": [
+    {
+     "feature": 18862,
+     "cos": 0.806,
+     "density": 0.00557028129696846,
+     "contexts": [
+      {
+       "act": 18.05,
+       "before": " wants Breitbart.com silenced.\nMore @ The Gateway Pund",
+       "token": "it",
+       "after": "<|im_end|><|im_start|>user"
+      },
+      {
+       "act": 17.12,
+       "before": " columnists continuing to objectify women in politics. Michelle Malk",
+       "token": "in",
+       "after": " jumped in,"
+      },
+      {
+       "act": 16.29,
+       "before": " male columnists continuing to objectify women in politics. Michelle",
+       "token": " Malk",
+       "after": "in jumped in"
+      }
+     ]
+    },
+    {
+     "feature": 1424,
+     "cos": -0.462,
+     "density": 0.0003992091806139797,
+     "contexts": [
+      {
+       "act": 14.76,
+       "before": " emails.\nFar from victorious on the subject lines front,",
+       "token": " Hillary",
+       "after": "\u2019s camp has"
+      },
+      {
+       "act": 14.27,
+       "before": ", every day America isn't being echoed by Wall Street,",
+       "token": " Hillary",
+       "after": " Clinton nor her"
+      },
+      {
+       "act": 13.74,
+       "before": " problem and compound it by creating more problems.\nListening to",
+       "token": " Hillary",
+       "after": " Clinton and Bernie"
+      }
+     ]
+    },
+    {
+     "feature": 24833,
+     "cos": -0.373,
+     "density": 0.003867577062919736,
+     "contexts": [
+      {
+       "act": 13.21,
+       "before": " by Paul Robeson and Frank Sinatra. Earl is an old",
+       "token": " radical",
+       "after": " and union man"
+      },
+      {
+       "act": 13.05,
+       "before": " the WikiLeaks founder in sight. No Geoffrey Robertson or John Pil",
+       "token": "ger",
+       "after": " or Jennifer Robinson"
+      },
+      {
+       "act": 12.83,
+       "before": " Loewen\u2019s contribution is reminiscent of Dr. Howard Z",
+       "token": "inn",
+       "after": "\u2018s classic People"
+      }
+     ]
+    },
+    {
+     "feature": 40388,
+     "cos": -0.222,
+     "density": 0.002936222590506077,
+     "contexts": [
+      {
+       "act": 21.73,
+       "before": " reflects the sunlight and creates a shimmering effect.\n\nthe",
+       "token": " base",
+       "after": " of the building"
+      },
+      {
+       "act": 21.0,
+       "before": " Karen could see the shadowy figures converging on her position",
+       "token": " below",
+       "after": ". She reached"
+      },
+      {
+       "act": 18.7,
+       "before": " capital.\nBefore fall Governor Lucas had ascended the Mississippi",
+       "token": " from",
+       "after": " Keokuk"
+      }
+     ]
+    },
+    {
+     "feature": 40306,
+     "cos": -0.221,
+     "density": 0.0008559638517908752,
+     "contexts": [
+      {
+       "act": 15.32,
+       "before": "3 Italy and fight alongside the brave men and women of the",
+       "token": " Resistance",
+       "after": ". Hunt down"
+      },
+      {
+       "act": 15.14,
+       "before": " up to D-Day and interacted with members of the French",
+       "token": " Resistance",
+       "after": ". She also"
+      },
+      {
+       "act": 15.13,
+       "before": "\n\nOverall, the stealth suits played a major role in the",
+       "token": " rebels",
+       "after": "' success,"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "layer": 17,
+  "neuron": 3980,
+  "mean": 0.0008655389484360726,
+  "frac_pos": 0.5213111545988258,
+  "top": [
+   {
+    "act": 1.164,
+    "before": "2 / 240\n40 YD: 4",
+    "token": ".",
+    "after": "60\nOut"
+   },
+   {
+    "act": 1.133,
+    "before": ". This helps us prevent spam. - Thank you\n1 + five",
+    "token": " =",
+    "after": "\nProtected by Invisible"
+   },
+   {
+    "act": 1.102,
+    "before": " subject \u201cDeadline,\u201d but the email described a drawing to win a dinner",
+    "token": " with",
+    "after": " Barack Obama himself,"
+   },
+   {
+    "act": 0.98,
+    "before": "- You can request 25MB Internet, which will be valid",
+    "token": " for",
+    "after": " 1 day."
+   },
+   {
+    "act": 0.867,
+    "before": " about on the net is the trigger pull. I think it is around",
+    "token": " ",
+    "after": "14-1"
+   },
+   {
+    "act": 0.781,
+    "before": " news release, Xenia will be a self-managed REIT headquartered",
+    "token": " in",
+    "after": " Orlando, Florida focused"
+   },
+   {
+    "act": 0.773,
+    "before": " was where Eric Worre talked about getting small for MLM success?<|im_end|>",
+    "token": "\n",
+    "after": "<|im_start|>assistant\n<think>"
+   },
+   {
+    "act": 0.719,
+    "before": "8/2014: What? A club for people who",
+    "token": " like",
+    "after": " baking and eating cakes"
+   },
+   {
+    "act": 0.707,
+    "before": " 'a' it appears 'q'.. N whn press '",
+    "token": "q",
+    "after": "' it appe..."
+   },
+   {
+    "act": 0.68,
+    "before": " will be inclusive of tax \u2013 exclusive of tax this is amount is \u00a5",
+    "token": "2",
+    "after": "75.0"
+   },
+   {
+    "act": 0.672,
+    "before": " sales opportunity for them. The only thing that will be going down the",
+    "token": " drain",
+    "after": " is your money."
+   },
+   {
+    "act": 0.664,
+    "before": " mean?\nOur friends at Oxford English Living Dictionaries say: being",
+    "token": " the",
+    "after": " only one of its"
+   }
+  ],
+  "bottom": [
+   {
+    "act": -1.289,
+    "before": " progesterone per ounce, and use half the dose recommended for women",
+    "token": ",",
+    "after": " but this would be"
+   },
+   {
+    "act": -1.25,
+    "before": ". If you didn't already know from the title, this posts covers",
+    "token": " the",
+    "after": " most common errors with"
+   },
+   {
+    "act": -1.203,
+    "before": "Director Darren Aronofsky recently admitted he became so worried about Port",
+    "token": "man",
+    "after": "'s weight loss,"
+   },
+   {
+    "act": -1.086,
+    "before": "];\n      fibonacciList.push(num1 + num2);\n   ",
+    "token": " }",
+    "after": "\n    return fibonacci"
+   },
+   {
+    "act": -1.062,
+    "before": " the face of difficult circumstances.<|im_end|>\n<|im_start|>user\nCould you suggest",
+    "token": " another",
+    "after": " metaphor or imagery used"
+   },
+   {
+    "act": -1.047,
+    "before": " or managing a company's financial resources.<|im_end|>\n<|im_start|>user\nCan",
+    "token": " you",
+    "after": " guide me on how"
+   },
+   {
+    "act": -1.023,
+    "before": " couscous, see recipe here.\nI wanted a healthy pasta",
+    "token": " salad",
+    "after": " to serve with the"
+   },
+   {
+    "act": -1.023,
+    "before": "'t completely understand what crowd funding is, this doesn't\nmean that",
+    "token": " you",
+    "after": " can't get started"
+   },
+   {
+    "act": -0.973,
+    "before": " camera and chuckled: \u2018That\u2019s very good. \u201cAre you Rod",
+    "token": " H",
+    "after": "udd?\u201d \u2019\n"
+   },
+   {
+    "act": -0.938,
+    "before": ".<|im_end|>\n<|im_start|>user\nCan you please provide me with the code",
+    "token": " to",
+    "after": " toggle the checkbox and"
+   },
+   {
+    "act": -0.926,
+    "before": "-Asian street food and amazing cocktails.<|im_end|>\n<|im_start|>user\nAll",
+    "token": " of",
+    "after": " these food and drink"
+   },
+   {
+    "act": -0.898,
+    "before": "2 tbsp powdered cane sugar\n- 1 tsp vanilla extract\n-",
+    "token": " ",
+    "after": "1/8 tsp"
+   }
+  ],
+  "logit_lens": {
+   "up": [
+    "ment",
+    "\u81f4",
+    "...",
+    "ardt",
+    "mt",
+    "ll",
+    "\u6258",
+    "\u4e39",
+    "dach",
+    " Hell",
+    "......",
+    "\u5206\u6563",
+    "\u6b21\u8981",
+    " m\u00f3n",
+    "?"
+   ],
+   "down": [
+    "encer",
+    "af\u00fcr",
+    "emodel",
+    " \u0633\u0627\u0628",
+    "sze",
+    " Fron",
+    " l\u00edqu",
+    " \u0447\u0435\u0442\u044b\u0440",
+    "byt",
+    "enges",
+    " rel",
+    "esco",
+    "amodel",
+    "entra",
+    "iedere"
+   ]
+  },
+  "sae": {
+   "layer": 23,
+   "features": [
+    {
+     "feature": 4264,
+     "cos": 0.194,
+     "density": 0.01230089645832777,
+     "contexts": [
+      {
+       "act": 7.0,
+       "before": ", and clients care about all of it. If you treat",
+       "token": " them",
+       "after": " well, keep"
+      },
+      {
+       "act": 6.8,
+       "before": " are able to connect to the internet.\n- If other",
+       "token": " devices",
+       "after": " are also experiencing"
+      },
+      {
+       "act": 6.72,
+       "before": " of wage earners will see a $4,770",
+       "token": " tax",
+       "after": " reduction, according"
+      }
+     ]
+    },
+    {
+     "feature": 2236,
+     "cos": 0.174,
+     "density": 0.013603389263153076,
+     "contexts": [
+      {
+       "act": 7.97,
+       "before": " key to ensure uniqueness of each product promotion\n   FOREIGN KEY",
+       "token": " (",
+       "after": "product_id)"
+      },
+      {
+       "act": 7.67,
+       "before": " is not a state that says, 'Speed 'em up",
+       "token": " going",
+       "after": " out.' \""
+      },
+      {
+       "act": 7.08,
+       "before": " himself. They distanced themselves from one another, where the",
+       "token": " Soul",
+       "after": " King always kept"
+      }
+     ]
+    },
+    {
+     "feature": 37595,
+     "cos": 0.111,
+     "density": 0.0034218502696603537,
+     "contexts": [
+      {
+       "act": 12.34,
+       "before": "8: Not On My Watch Ya Don't!\n4",
+       "token": "7",
+       "after": "8: Pok"
+      },
+      {
+       "act": 11.0,
+       "before": "i. 14.603:54",
+       "token": "9",
+       "after": "4\nOr"
+      },
+      {
+       "act": 10.7,
+       "before": " - JAN 29, 2011\n",
+       "token": "2",
+       "after": "2 oz."
+      }
+     ]
+    },
+    {
+     "feature": 37231,
+     "cos": -0.102,
+     "density": 0.0043850853107869625,
+     "contexts": [
+      {
+       "act": 9.92,
+       "before": " [7:0] b, // 8-bit binary",
+       "token": " input",
+       "after": " number b\n"
+      },
+      {
+       "act": 8.78,
+       "before": " 50)\n                x += x1\n               ",
+       "token": " y",
+       "after": " += y1"
+      },
+      {
+       "act": 8.4,
+       "before": ".\n  if (isNaN(a) || isNaN(b)",
+       "token": " ||",
+       "after": " isNaN(c)"
+      }
+     ]
+    },
+    {
+     "feature": 37734,
+     "cos": 0.1,
+     "density": 0.004762639757245779,
+     "contexts": [
+      {
+       "act": 10.1,
+       "before": " \u2013 130 \u2013 135 \u2013 ",
+       "token": "1",
+       "after": "45 \u2013"
+      },
+      {
+       "act": 9.26,
+       "before": " \u2013 135 \u2013 145 \u2013 ",
+       "token": "1",
+       "after": "50 \u2013"
+      },
+      {
+       "act": 8.25,
+       "before": "):\n180 \u2013 180 \u2013 ",
+       "token": "2",
+       "after": "00 \u2013"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "layer": 17,
+  "neuron": 3779,
+  "mean": 0.014003677054627302,
+  "frac_pos": 0.6085166340508806,
+  "top": [
+   {
+    "act": 2.375,
+    "before": " the corn crop has reached the dent stage, eight days behind last year",
+    "token": " and",
+    "after": " three days behind average"
+   },
+   {
+    "act": 1.984,
+    "before": " of soybeans have started to turn color, five days behind last year",
+    "token": " and",
+    "after": " three days behind average"
+   },
+   {
+    "act": 1.531,
+    "before": ". Eighteen percent of soybeans have started to turn color, five",
+    "token": " days",
+    "after": " behind last year and"
+   },
+   {
+    "act": 1.484,
+    "before": " percent of soybeans have started to turn color, five days behind last",
+    "token": " year",
+    "after": " and three days behind"
+   },
+   {
+    "act": 1.367,
+    "before": "ink.\n|3-301.11(B)||",
+    "token": "Correct",
+    "after": "ed During Inspection Critical"
+   },
+   {
+    "act": 1.305,
+    "before": "The third cutting of alfalfa hay reached 91 percent complete,",
+    "token": " ",
+    "after": "8 days ahead of"
+   },
+   {
+    "act": 1.297,
+    "before": " excellent. Eighteen percent of soybeans have started to turn color,",
+    "token": " five",
+    "after": " days behind last year"
+   },
+   {
+    "act": 1.273,
+    "before": " on \"Indiecast\"?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>",
+    "token": "\n\n",
+    "after": "Yes, \"Ind"
+   },
+   {
+    "act": 1.258,
+    "before": " corn crop has reached the dent stage, eight days behind last year and",
+    "token": " three",
+    "after": " days behind average."
+   },
+   {
+    "act": 1.219,
+    "before": "3.4 seconds quicker than the 330i could do",
+    "token": " and",
+    "after": " nearly a second and"
+   },
+   {
+    "act": 1.148,
+    "before": " handsink.\n|3-301.11(B",
+    "token": ")||",
+    "after": "Corrected During Inspection"
+   },
+   {
+    "act": 1.117,
+    "before": " soybeans have started to turn color, five days behind last year and",
+    "token": " three",
+    "after": " days behind average."
+   }
+  ],
+  "bottom": [
+   {
+    "act": -1.078,
+    "before": " their impact on reducing absenteeism and improving employee health. The researchers found",
+    "token": " that",
+    "after": " the program with the"
+   },
+   {
+    "act": -1.062,
+    "before": ".println(\"Choose an operation:\");\n            System.out.println(\"1",
+    "token": ".",
+    "after": " Insert\");\n           "
+   },
+   {
+    "act": -1.039,
+    "before": " game is great. Period.\nShould you buy or rent this game",
+    "token": "?",
+    "after": "\nIn my opinion"
+   },
+   {
+    "act": -1.008,
+    "before": "allets directly influence the sound produced by the instruments. Drumsticks that",
+    "token": " are",
+    "after": " longer and thinner produce"
+   },
+   {
+    "act": -0.977,
+    "before": " GRE scores, with a minimum of 146 in verbal and",
+    "token": " ",
+    "after": "140 in"
+   },
+   {
+    "act": -0.949,
+    "before": " cell. For example, if you have a circular cell with a diameter",
+    "token": " of",
+    "after": " 10 mic"
+   },
+   {
+    "act": -0.949,
+    "before": " design software and be familiar with basic design principles.\n\n3. Marketing",
+    "token": ":",
+    "after": " Interns working in"
+   },
+   {
+    "act": -0.898,
+    "before": " for the table like this:\n\n```python\ntable.border_style =",
+    "token": " \"",
+    "after": "MINIMAL\"\n"
+   },
+   {
+    "act": -0.895,
+    "before": "10 micrometers and the nucleus is located at a y-coordinate",
+    "token": " of",
+    "after": " 3 microm"
+   },
+   {
+    "act": -0.895,
+    "before": " displayed as a percentage or as a graph, representing the percentage of positive",
+    "token": ",",
+    "after": " negative, and neutral"
+   },
+   {
+    "act": -0.863,
+    "before": " carry everyday essentials\n\nEssentials for a Cooler Climate Beach Vacation:\n\n",
+    "token": "1",
+    "after": ". Windbreaker or"
+   },
+   {
+    "act": -0.855,
+    "before": " is\u2026 powerful for brand building and engagement with communities. \u2022 Writing is",
+    "token": "\u2026",
+    "after": " the basis of good"
+   }
+  ],
+  "logit_lens": {
+   "up": [
+    "\u5c31\u95ee",
+    "\ufffd",
+    "\ufffd",
+    "udos",
+    "asen",
+    "esimo",
+    "\u5728\u57ce\u5e02",
+    "ousel",
+    "noten",
+    "ascar",
+    "uret",
+    "\u5404\u4e2a\u9886\u57df",
+    "ampo",
+    "imo",
+    "etus"
+   ],
+   "down": [
+    "vera",
+    "\u7cbe",
+    "vr",
+    "nu",
+    "\u7247\u7684",
+    " offensive",
+    "\u00e7",
+    "\u7247",
+    " num",
+    "af\u00fcr",
+    " Mark",
+    "MZ",
+    " brav",
+    "s",
+    " existing"
+   ]
+  },
+  "sae": {
+   "layer": 23,
+   "features": [
+    {
+     "feature": 4264,
+     "cos": 0.226,
+     "density": 0.01230089645832777,
+     "contexts": [
+      {
+       "act": 7.0,
+       "before": ", and clients care about all of it. If you treat",
+       "token": " them",
+       "after": " well, keep"
+      },
+      {
+       "act": 6.8,
+       "before": " are able to connect to the internet.\n- If other",
+       "token": " devices",
+       "after": " are also experiencing"
+      },
+      {
+       "act": 6.72,
+       "before": " of wage earners will see a $4,770",
+       "token": " tax",
+       "after": " reduction, according"
+      }
+     ]
+    },
+    {
+     "feature": 39156,
+     "cos": 0.108,
+     "density": 0.002551449928432703,
+     "contexts": [
+      {
+       "act": 11.11,
+       "before": " 3\u00b0C, Min -1\u00b0C\nDay 1",
+       "token": ":",
+       "after": " Max 3"
+      },
+      {
+       "act": 10.74,
+       "before": "3\u00b0C, Min -1\u00b0C\nDay 1:",
+       "token": " Max",
+       "after": " 3\u00b0C"
+      },
+      {
+       "act": 9.99,
+       "before": "total 2mm) on Sun morning\nDay 1",
+       "token": ":",
+       "after": " No precipitation forecast"
+      }
+     ]
+    },
+    {
+     "feature": 35507,
+     "cos": 0.103,
+     "density": 0.0008974687661975622,
+     "contexts": [
+      {
+       "act": 13.7,
+       "before": " example usage\npassword = generate_password(length=12,",
+       "token": " uppercase",
+       "after": "=True, lowercase"
+      },
+      {
+       "act": 13.38,
+       "before": " True\n    opacity = 127\n    organic",
+       "token": " =",
+       "after": " True\n\n   "
+      },
+      {
+       "act": 13.21,
+       "before": " 13.3\"\nTechnical InformationAdjustable Height",
+       "token": ":",
+       "after": " Up to "
+      }
+     ]
+    },
+    {
+     "feature": 2236,
+     "cos": 0.1,
+     "density": 0.013603389263153076,
+     "contexts": [
+      {
+       "act": 7.97,
+       "before": " key to ensure uniqueness of each product promotion\n   FOREIGN KEY",
+       "token": " (",
+       "after": "product_id)"
+      },
+      {
+       "act": 7.67,
+       "before": " is not a state that says, 'Speed 'em up",
+       "token": " going",
+       "after": " out.' \""
+      },
+      {
+       "act": 7.08,
+       "before": " himself. They distanced themselves from one another, where the",
+       "token": " Soul",
+       "after": " King always kept"
+      }
+     ]
+    },
+    {
+     "feature": 6176,
+     "cos": 0.086,
+     "density": 0.004964951425790787,
+     "contexts": [
+      {
+       "act": 19.3,
+       "before": " story is a bit interesting, the game is, at best",
+       "token": ",",
+       "after": " worth a rental"
+      },
+      {
+       "act": 18.18,
+       "before": " diverse as Dolly Parton and Snow Patrol would have merely",
+       "token": " been",
+       "after": " a pleasant excursion"
+      },
+      {
+       "act": 17.39,
+       "before": " the theatre in Chicago was the best. The Las Vegas one",
+       "token": " was",
+       "after": " good too,"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "layer": 15,
+  "neuron": 1515,
+  "mean": 0.0012405877957838622,
+  "frac_pos": 0.5582994129158513,
+  "top": [
+   {
+    "act": 0.867,
+    "before": " seismic waves causes the most damage during an earthquake?<|im_end|>\n<|im_start|>assistant",
+    "token": "\n",
+    "after": "Surface waves cause the"
+   },
+   {
+    "act": 0.742,
+    "before": " image with bright light cast through, so adjusting your exposure compensation by +",
+    "token": "1",
+    "after": " or possibly even +"
+   },
+   {
+    "act": 0.688,
+    "before": " Incontinence\nOverview The urinary tract includes the kidneys, the ure",
+    "token": "ters",
+    "after": ", the bladder,"
+   },
+   {
+    "act": 0.621,
+    "before": "ismometer. They are compression waves that move like sound waves, traveling",
+    "token": " through",
+    "after": " solid and liquid materials"
+   },
+   {
+    "act": 0.617,
+    "before": " pathway. This prevents conversion of the much weaker form of estrogen, estr",
+    "token": "one",
+    "after": ", to a more"
+   },
+   {
+    "act": 0.598,
+    "before": " the depth of field. Shooting with a shorter lens or a shorter focal",
+    "token": " length",
+    "after": " will also aid in"
+   },
+   {
+    "act": 0.594,
+    "before": " 80/20 rule. That means that 80",
+    "token": "%",
+    "after": " of your posts should"
+   },
+   {
+    "act": 0.574,
+    "before": " Cities\" by Charles Dickens: In this novel, the character of Sydney",
+    "token": " Carton",
+    "after": " sacrifices his own life"
+   },
+   {
+    "act": 0.57,
+    "before": ", and they cannot escape it. 2. \"Oedip",
+    "token": "us",
+    "after": " Rex\" by Soph"
+   },
+   {
+    "act": 0.559,
+    "before": "3:33 PMWooden of bed frames from maple wood will",
+    "token": " cost",
+    "after": " in more affordable price"
+   },
+   {
+    "act": 0.555,
+    "before": " Hormones act more slowly to regulate sodium levels. For example, ald",
+    "token": "osterone",
+    "after": " regulates the concentration of"
+   },
+   {
+    "act": 0.551,
+    "before": " not in as large amounts.\nHealthy bodies are quite efficient at conserv",
+    "token": "ing",
+    "after": " sodium. The first"
+   }
+  ],
+  "bottom": [
+   {
+    "act": -2.219,
+    "before": " contact their office for more information.\n4. Is a thesis required",
+    "token": "?",
+    "after": "\nNo. There"
+   },
+   {
+    "act": -1.797,
+    "before": " dunnage racks. Milk crates, soda crates, or bread racks",
+    "token": " are",
+    "after": " not suitable for food"
+   },
+   {
+    "act": -1.68,
+    "before": " chair.\n5. Are there time limits for completion of the degree",
+    "token": "?",
+    "after": "\nYes. A"
+   },
+   {
+    "act": -1.664,
+    "before": " that not all phones have, and the 5730zm",
+    "token": " is",
+    "after": " supposed to have this"
+   },
+   {
+    "act": -1.641,
+    "before": "ximal portions of the hind limbs are dark orange. Hands and feet",
+    "token": " are",
+    "after": " gray. Iris is"
+   },
+   {
+    "act": -1.547,
+    "before": " proficient on the mathematics (98.3%) and language arts literacy",
+    "token": " (",
+    "after": "100."
+   },
+   {
+    "act": -1.539,
+    "before": " way to her military service?<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>",
+    "token": "\n\n",
+    "after": "According to the article"
+   },
+   {
+    "act": -1.523,
+    "before": "Pour the water into a low, wide-set pot. A normal pot",
+    "token": " will",
+    "after": " work just as fine"
+   },
+   {
+    "act": -1.461,
+    "before": " time chatting and laughing, not to mention getting drunk and loud. Tyler",
+    "token": " was",
+    "after": " real quiet, but"
+   },
+   {
+    "act": -1.422,
+    "before": "MPRO #423 video?<|im_end|>\n<|im_start|>assistant\nYes",
+    "token": ",",
+    "after": " I can help you"
+   },
+   {
+    "act": -1.406,
+    "before": "3 options but luckily one of the options matches me perfectly. The coverage",
+    "token": " is",
+    "after": " really good \u2013 it"
+   },
+   {
+    "act": -1.406,
+    "before": " for the second straight meeting between the in-state rivals it finished as a",
+    "token": " ",
+    "after": "2-2 overtime"
+   }
+  ],
+  "logit_lens": {
+   "up": [
+    "irk",
+    "\u8fc7\u795e",
+    " d\u00e9b",
+    "etak",
+    "\u4efb\u4f55\u5176\u4ed6",
+    " \u0441\u043c\u0435",
+    "\u6055",
+    "pot",
+    "-any",
+    "\u7684\u4e00\u6b21",
+    "inerary",
+    "rej",
+    "\u9752\u9752",
+    " reality",
+    "\u4ec5\u6709\u7684"
+   ],
+   "down": [
+    "arana",
+    "anna",
+    "\u6697",
+    "\u8001\u5a46",
+    "\u4fc3",
+    "\u0441\u044b",
+    "\u6b62",
+    "\u660e",
+    " alike",
+    "+xml",
+    "\u91d1",
+    "iesen",
+    "\u043c\u0435\u0442\u0438",
+    " parlando",
+    "essler"
+   ]
+  },
+  "sae": {
+   "layer": 16,
+   "features": [
+    {
+     "feature": 28214,
+     "cos": -0.251,
+     "density": 0.00812935084104538,
+     "contexts": [
+      {
+       "act": 6.95,
+       "before": " personal and professional life.\n\nThe workplace is a conducive environment",
+       "token": " for",
+       "after": " stress, and"
+      },
+      {
+       "act": 5.85,
+       "before": " New York\u2019s, Baltimore can\u2019t flourish: frightened residents and",
+       "token": " determined",
+       "after": " businesses have little"
+      },
+      {
+       "act": 5.82,
+       "before": "014). Additionally, social media can provide a platform",
+       "token": " for",
+       "after": " cyberbullying"
+      }
+     ]
+    },
+    {
+     "feature": 37903,
+     "cos": -0.203,
+     "density": 0.0028221341781318188,
+     "contexts": [
+      {
+       "act": 8.28,
+       "before": "The estimated population, in 2003, was",
+       "token": " ",
+       "after": "1,1"
+      },
+      {
+       "act": 7.71,
+       "before": " himself: he died in his palace in Rome at the age",
+       "token": " of",
+       "after": " 28"
+      },
+      {
+       "act": 7.7,
+       "before": " in Bradley County, Tennessee, United States. The population was",
+       "token": " ",
+       "after": "41,"
+      }
+     ]
+    },
+    {
+     "feature": 7371,
+     "cos": -0.191,
+     "density": 0.40345051884651184,
+     "contexts": [
+      {
+       "act": 58.14,
+       "before": "197 since @0R5RLxr3C",
+       "token": "Z",
+       "after": "klyww"
+      },
+      {
+       "act": 51.28,
+       "before": "97 since @0R5RLxr3CZ",
+       "token": "k",
+       "after": "lyww joined"
+      },
+      {
+       "act": 50.19,
+       "before": " 197 since @0R5RLxr3",
+       "token": "C",
+       "after": "Zkly"
+      }
+     ]
+    },
+    {
+     "feature": 20299,
+     "cos": 0.19,
+     "density": 0.38281816244125366,
+     "contexts": [
+      {
+       "act": 32.99,
+       "before": "\nI am very interested 58% 37",
+       "token": "7",
+       "after": " I am somewhat"
+      },
+      {
+       "act": 32.24,
+       "before": ", OR ECONOMIC LOSSES.\nSome states do not",
+       "token": " allow",
+       "after": " the exclusion or"
+      },
+      {
+       "act": 32.13,
+       "before": " are tons of TS dating sites on the net, datk",
+       "token": "ng",
+       "after": " that is a"
+      }
+     ]
+    },
+    {
+     "feature": 13980,
+     "cos": -0.158,
+     "density": 0.008661696687340736,
+     "contexts": [
+      {
+       "act": 9.51,
+       "before": " be used. Obviously, most American Catholics are accepting morality as",
+       "token": " defined",
+       "after": " by the government"
+      },
+      {
+       "act": 9.48,
+       "before": " our stats flipped and 80% of our work was",
+       "token": " with",
+       "after": " our own clients"
+      },
+      {
+       "act": 9.13,
+       "before": " our client, and inquiries for access or removal must be directed",
+       "token": " to",
+       "after": " them. In"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "layer": 16,
+  "neuron": 1782,
+  "mean": -0.005845326948072579,
+  "frac_pos": 0.47818590998043053,
+  "top": [
+   {
+    "act": 2.016,
+    "before": " complacency and rationalize that the ravages of war, economic disaster",
+    "token": ",",
+    "after": " famine, and earthquake"
+   },
+   {
+    "act": 2.0,
+    "before": " 100 hours of \"law-enforcement related\" community service",
+    "token": ".",
+    "after": "\nA lot more"
+   },
+   {
+    "act": 1.75,
+    "before": " Profile\nSend a private message to laurlynn\nVisit la",
+    "token": "ur",
+    "after": "lynn's Gallery"
+   },
+   {
+    "act": 1.664,
+    "before": "CLICK HERE TO CREATE YOUR ACCOUNT\n- Get advice\n- Make friends",
+    "token": "\n",
+    "after": "- Share your expertise"
+   },
+   {
+    "act": 1.648,
+    "before": " rise of German nationalism during Einstein\u2019s later years feels eerily familiar in",
+    "token": " the",
+    "after": " global arena these days"
+   },
+   {
+    "act": 1.633,
+    "before": "plus a giveaway!)\nHappy New Year!\nBest of the Food",
+    "token": " Web",
+    "after": " \u2013 Instructional Videos"
+   },
+   {
+    "act": 1.578,
+    "before": " not just a \"hippee\" dwelling anyone. All walks of life",
+    "token": " are",
+    "after": " now wanting a yurt"
+   },
+   {
+    "act": 1.57,
+    "before": " GM drops Facebook ads: They don't work\nABC News (May",
+    "token": " ",
+    "after": "16, "
+   },
+   {
+    "act": 1.555,
+    "before": "ster Warns Other Companies May Follow\nMashable (May ",
+    "token": "1",
+    "after": "5, 2"
+   },
+   {
+    "act": 1.547,
+    "before": " his own will and it would leave them amazed and fascinated.\nAfter",
+    "token": " the",
+    "after": " speech, Samson"
+   },
+   {
+    "act": 1.508,
+    "before": " - Reaction to Facebook\u2019s New Search Feature\nCiteWorld (Jan",
+    "token": ".",
+    "after": " 15,"
+   },
+   {
+    "act": 1.492,
+    "before": " impatient)\nHim: 'Cos I'm not wearing underwear.",
+    "token": "\n",
+    "after": "Me: (can"
+   }
+  ],
+  "bottom": [
+   {
+    "act": -2.828,
+    "before": "ismograph.\" However, based on interviews with Zimmerman himself and others in",
+    "token": " the",
+    "after": " industry, we can"
+   },
+   {
+    "act": -2.484,
+    "before": " feedback! Here are some additional practical tips for incorporating self-care practices into",
+    "token": " our",
+    "after": " daily routines:\n\n"
+   },
+   {
+    "act": -2.188,
+    "before": " they are smaller the water dries up a bit more quickly than in",
+    "token": " the",
+    "after": " larger phalaen"
+   },
+   {
+    "act": -2.141,
+    "before": " 16, 2012) - OOPS!",
+    "token": " GM",
+    "after": " drops Facebook ads:"
+   },
+   {
+    "act": -2.094,
+    "before": " Up The Search Results Page\nInternet Retailer (Nov. 7",
+    "token": ",",
+    "after": " 201"
+   },
+   {
+    "act": -2.016,
+    "before": " for many (10 or 12) years, and A",
+    "token": "OA",
+    "after": " has until recently refused"
+   },
+   {
+    "act": -2.0,
+    "before": "ffect Your Business\nWebProNews (Nov 8, 2",
+    "token": "0",
+    "after": "12) -"
+   },
+   {
+    "act": -2.0,
+    "before": " considering the wildly-varying characterizations and tones the script presented,",
+    "token": " she",
+    "after": " did some markedly heavy"
+   },
+   {
+    "act": -1.992,
+    "before": "-time home run list \u2014 is he a Hall of Famer? (",
+    "token": "9",
+    "after": "2)<|im_end|>The"
+   },
+   {
+    "act": -1.977,
+    "before": " a few examples:\n\n1. Stephanie Hier: The American artist Stephanie",
+    "token": " Hier",
+    "after": " creates whimsical,"
+   },
+   {
+    "act": -1.961,
+    "before": "st for his official, while Hunter Kampmoyer is going solo September",
+    "token": " ",
+    "after": "26th versus"
+   },
+   {
+    "act": -1.914,
+    "before": " of artists to continue exploring new forms of expression and creativity.\n\nSo",
+    "token": ",",
+    "after": " while Surrealism may"
+   }
+  ],
+  "logit_lens": {
+   "up": [
+    "anzo",
+    "\u0446\u0430\u0445",
+    "cname",
+    "ynes",
+    "mein",
+    "\u043c\u0435",
+    "yme",
+    "ulon",
+    "tribu",
+    "ceo",
+    "uteur",
+    "ato",
+    "okon",
+    "&o",
+    " \u0643\u0648"
+   ],
+   "down": [
+    " Aeros",
+    " gra",
+    "itter",
+    "\u8de8",
+    " Twice",
+    "\u7edd",
+    " far",
+    "\u6839",
+    "Root",
+    "urate",
+    "\u00f3ng",
+    " logging",
+    "\u7ea7",
+    "abah",
+    "uenta"
+   ]
+  },
+  "sae": {
+   "layer": 16,
+   "features": [
+    {
+     "feature": 25343,
+     "cos": -0.342,
+     "density": 0.014366517774760723,
+     "contexts": [
+      {
+       "act": 10.09,
+       "before": " very strongly considering the Israeli military at the end of the month",
+       "token": ".",
+       "after": " The reason is"
+      },
+      {
+       "act": 9.66,
+       "before": "-vagina\u201d action wasn\u2019t that good but the game changes",
+       "token": ".",
+       "after": " He then re"
+      },
+      {
+       "act": 9.42,
+       "before": " comfortable shoes. The shoes of this brand are not too much",
+       "token": ".",
+       "after": " To buy the"
+      }
+     ]
+    },
+    {
+     "feature": 14423,
+     "cos": -0.339,
+     "density": 0.0026338582392781973,
+     "contexts": [
+      {
+       "act": 11.13,
+       "before": ", the BKAA mission has been to protect the Basha",
+       "token": " Kill",
+       "after": " wetlands and"
+      },
+      {
+       "act": 9.88,
+       "before": " Tools Handbag, Purse Bag Or Clutch\nApollo",
+       "token": " Tools",
+       "after": " makes top quality"
+      },
+      {
+       "act": 9.35,
+       "before": "HS School Selfie Competition!\nJoin in with our WH",
+       "token": "S",
+       "after": " School Selfie"
+      }
+     ]
+    },
+    {
+     "feature": 20299,
+     "cos": 0.308,
+     "density": 0.38281816244125366,
+     "contexts": [
+      {
+       "act": 32.99,
+       "before": "\nI am very interested 58% 37",
+       "token": "7",
+       "after": " I am somewhat"
+      },
+      {
+       "act": 32.24,
+       "before": ", OR ECONOMIC LOSSES.\nSome states do not",
+       "token": " allow",
+       "after": " the exclusion or"
+      },
+      {
+       "act": 32.13,
+       "before": " are tons of TS dating sites on the net, datk",
+       "token": "ng",
+       "after": " that is a"
+      }
+     ]
+    },
+    {
+     "feature": 7371,
+     "cos": -0.302,
+     "density": 0.40345051884651184,
+     "contexts": [
+      {
+       "act": 58.14,
+       "before": "197 since @0R5RLxr3C",
+       "token": "Z",
+       "after": "klyww"
+      },
+      {
+       "act": 51.28,
+       "before": "97 since @0R5RLxr3CZ",
+       "token": "k",
+       "after": "lyww joined"
+      },
+      {
+       "act": 50.19,
+       "before": " 197 since @0R5RLxr3",
+       "token": "C",
+       "after": "Zkly"
+      }
+     ]
+    },
+    {
+     "feature": 37642,
+     "cos": -0.201,
+     "density": 0.009260610677301884,
+     "contexts": [
+      {
+       "act": 7.62,
+       "before": " wildly-varying characterizations and tones the script presented,",
+       "token": " she",
+       "after": " did some markedly"
+      },
+      {
+       "act": 7.38,
+       "before": " Spirits for mummy!!! \u2026 except for that I pay for",
+       "token": " them",
+       "after": ". Moving on"
+      },
+      {
+       "act": 7.31,
+       "before": " properly and so are increasing openly will need one of the most",
+       "token": " serving",
+       "after": ". This kind"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "layer": 16,
+  "neuron": 6387,
+  "mean": 0.007204442981637854,
+  "frac_pos": 0.5340176125244619,
+  "top": [
+   {
+    "act": 1.555,
+    "before": " identifying virality.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nUnfortunately",
+    "token": ",",
+    "after": " there isn't much"
+   },
+   {
+    "act": 1.203,
+    "before": "\n<think>\n\n</think>\n\nI'm happy to provide you with more information",
+    "token": ".",
+    "after": " The name of the"
+   },
+   {
+    "act": 1.055,
+    "before": " ask him some more questions. He said the bird was over a foot",
+    "token": " tall",
+    "after": ", but seemed to"
+   },
+   {
+    "act": 1.055,
+    "before": " spent the money and took it to the car wash.\nProblem solved",
+    "token": ".",
+    "after": " Snow can get in"
+   },
+   {
+    "act": 1.047,
+    "before": " steel and the dimensions on the website state\n75cm (sure",
+    "token": "ly",
+    "after": " a typo, seeing"
+   },
+   {
+    "act": 1.023,
+    "before": " approach to identifying virality.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>",
+    "token": "\n\n",
+    "after": "Unfortunately, there isn"
+   },
+   {
+    "act": 1.016,
+    "before": " to Roland Hemond, a former White Sox executive and a principal founder",
+    "token": " of",
+    "after": " the AFL. During"
+   },
+   {
+    "act": 1.008,
+    "before": "You're probably no stranger to (the late) Eiko Ishi",
+    "token": "oka",
+    "after": "'s work: she"
+   },
+   {
+    "act": 0.992,
+    "before": " home include, and what updates have been made recently?\n\nGiven material",
+    "token": ":",
+    "after": " Location! Located toward"
+   },
+   {
+    "act": 0.988,
+    "before": " That works. I know you know, but just to remind myself \u2014",
+    "token": " it",
+    "after": " has the benefit of"
+   },
+   {
+    "act": 0.953,
+    "before": ", annoyed that they didn\u2019t realize that my fear was a very legitimate",
+    "token": " one",
+    "after": ". I was me"
+   },
+   {
+    "act": 0.914,
+    "before": " and the dimensions on the website state\n75cm (surely",
+    "token": " a",
+    "after": " typo, seeing as"
+   }
+  ],
+  "bottom": [
+   {
+    "act": -0.949,
+    "before": "\n\nFor each row, it extracts the values for each column, based",
+    "token": " on",
+    "after": " the column name,"
+   },
+   {
+    "act": -0.926,
+    "before": " any specific volunteer events coming up soon?<|im_end|>\n<|im_start|>assistant\nI",
+    "token": " don",
+    "after": "'t have access to"
+   },
+   {
+    "act": -0.875,
+    "before": " of SHIELD devices have not been high. Since availability of GeForce NOW",
+    "token": " is",
+    "after": " limited to NVIDIA's"
+   },
+   {
+    "act": -0.758,
+    "before": "<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nYou can purchase Bona",
+    "token": " Hard",
+    "after": "wood Floor Wax from"
+   },
+   {
+    "act": -0.695,
+    "before": " incorporating self-care practices into our daily routines?<|im_end|>\n<|im_start|>assistant\n",
+    "token": "Thank",
+    "after": " you for your positive"
+   },
+   {
+    "act": -0.656,
+    "before": ", lemmings, and flightless young birds. When winter comes",
+    "token": ",",
+    "after": " their true hunting skills"
+   },
+   {
+    "act": -0.652,
+    "before": "<|im_start|>assistant\n<think>\n\n</think>\n\nI do not have access to information",
+    "token": " about",
+    "after": " the reception of r"
+   },
+   {
+    "act": -0.641,
+    "before": " some beautiful poems that truly capture the essence of love in nature. However",
+    "token": ",",
+    "after": " could you perhaps add"
+   },
+   {
+    "act": -0.641,
+    "before": "6. Seal with chocolate: Spoon more melted chocolate on top of the",
+    "token": " peanut",
+    "after": " butter filling, making"
+   },
+   {
+    "act": -0.598,
+    "before": " reputation in Mexico.<|im_end|>\n<|im_start|>assistant\n<think>\n\n</think>\n\nI",
+    "token": "'m",
+    "after": " happy to provide you"
+   },
+   {
+    "act": -0.594,
+    "before": " can definitely be inspiring to hear about successful people who have struggled with issues",
+    "token": " like",
+    "after": " balancing their work and"
+   },
+   {
+    "act": -0.586,
+    "before": ", definitely! Here are some additional indoor activities that you can do by",
+    "token": " yourself",
+    "after": ":\n\n1."
+   }
+  ],
+  "logit_lens": {
+   "up": [
+    "/apis",
+    "zin",
+    " echo",
+    "\u6beb\u4e0d",
+    "e",
+    "\u5979\u90a3",
+    "\u5915",
+    "\u7167",
+    " copy",
+    "\u9a6d",
+    "\ufffd",
+    "ording",
+    "ampen",
+    "echo",
+    " outline"
+   ],
+   "down": [
+    "olik",
+    "\u81ea\u6765",
+    "ngth",
+    "ueling",
+    "\u514b\u5170",
+    "oland",
+    "ilah",
+    "raph",
+    "renom",
+    "ael",
+    "\u53ca\u9500\u552e",
+    "\u4e00\u500d",
+    "\u7279\u5225\u7684",
+    "\u8ae7",
+    "HW"
+   ]
+  },
+  "sae": {
+   "layer": 16,
+   "features": [
+    {
+     "feature": 39981,
+     "cos": -0.247,
+     "density": 0.006228344980627298,
+     "contexts": [
+      {
+       "act": 10.06,
+       "before": " won several awards for his performances in Tamil cinema.\n\n3",
+       "token": ".",
+       "after": " Vijay -"
+      },
+      {
+       "act": 10.02,
+       "before": "eter as it came against their crosstown rivals.<|im_end|>",
+       "token": "\n",
+       "after": "<|im_start|>user\n"
+      },
+      {
+       "act": 9.89,
+       "before": " reform after hearing about the story of Alice Marie Johnson \u2013 a",
+       "token": " ",
+       "after": "63-year"
+      }
+     ]
+    },
+    {
+     "feature": 6440,
+     "cos": -0.215,
+     "density": 0.005648278631269932,
+     "contexts": [
+      {
+       "act": 5.69,
+       "before": "\u201d the following week \u201cdiscussing all of the things",
+       "token": " that",
+       "after": " have taken place"
+      },
+      {
+       "act": 4.59,
+       "before": " increase during a Monday work session. But the council could support",
+       "token": " an",
+       "after": " alternative \"two"
+      },
+      {
+       "act": 4.56,
+       "before": "erasene man suffering from demon possession, the man who was",
+       "token": " called",
+       "after": " Legion. The"
+      }
+     ]
+    },
+    {
+     "feature": 39989,
+     "cos": -0.176,
+     "density": 0.010639295913279057,
+     "contexts": [
+      {
+       "act": 14.08,
+       "before": "-healing rate, a greater number of migrating and invasive cells",
+       "token": " (",
+       "after": "P<0"
+      },
+      {
+       "act": 13.61,
+       "before": " Cloud Gate. Designed by Indian-born British artist Anish Kapoor",
+       "token": ",",
+       "after": " it is one"
+      },
+      {
+       "act": 12.7,
+       "before": "        const decoded = jwt.verify(token, process.env.APP_CLIENT",
+       "token": "_ID",
+       "after": "); \n       "
+      }
+     ]
+    },
+    {
+     "feature": 32390,
+     "cos": -0.176,
+     "density": 0.006348448805510998,
+     "contexts": [
+      {
+       "act": 7.43,
+       "before": " versions, GeneratePress costs $39.95 per",
+       "token": " year",
+       "after": ". WP Astra"
+      },
+      {
+       "act": 6.76,
+       "before": " server\n  String postBody = \"temperature=\" + String",
+       "token": "(f",
+       "after": "ahrenheit);\n"
+      },
+      {
+       "act": 6.49,
+       "before": " exploring love in nature, specifically the love and affections between",
+       "token": " different",
+       "after": " species:\n\n"
+      }
+     ]
+    },
+    {
+     "feature": 33363,
+     "cos": 0.165,
+     "density": 0.002752959495410323,
+     "contexts": [
+      {
+       "act": 6.85,
+       "before": " but the device doesn't react or explode to the water at",
+       "token": " all",
+       "after": ", proving that"
+      },
+      {
+       "act": 6.78,
+       "before": "/International Hillel, Alpha Epsilon Pi can play",
+       "token": " a",
+       "after": " vital role in"
+      },
+      {
+       "act": 6.3,
+       "before": " have you waste your time going to all of them? Third",
+       "token": ",",
+       "after": " If three of"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "layer": 17,
+  "neuron": 520,
+  "mean": 0.017491580619737362,
+  "frac_pos": 0.544880626223092,
+  "top": [
+   {
+    "act": 2.141,
+    "before": " of the challenges facing mobile advertising and how the industry is adapting to these",
+    "token": " challenges",
+    "after": ". It covers topics"
+   },
+   {
+    "act": 2.047,
+    "before": " Disney and LEGO to launch exclusive product lines that are only available at Target",
+    "token": ".",
+    "after": " This strategy has helped"
+   },
+   {
+    "act": 1.914,
+    "before": " to some reports of farmers feeding hay to cattle due to poor pasture conditions",
+    "token": ".",
+    "after": "<|im_end|>\n<|im_end|>Looks"
+   },
+   {
+    "act": 1.883,
+    "before": " Southeast Asia and China, and the most severe form can cause stillbirth",
+    "token": ".",
+    "after": " Beta-thalassem"
+   },
+   {
+    "act": 1.836,
+    "before": "3. Lizzo: Lizzo gained popularity through her social media presence",
+    "token": ".",
+    "after": " She used social media"
+   },
+   {
+    "act": 1.797,
+    "before": " reporting startup that was founded in 2010 and received support",
+    "token": " from",
+    "after": " Amsterdam Venture Studios."
+   },
+   {
+    "act": 1.727,
+    "before": " offers tips for practicing mindful eating to overcome them. 4. Video",
+    "token": ":",
+    "after": " Mindful Eating for"
+   },
+   {
+    "act": 1.664,
+    "before": " the custom type that you want to customize, and select \"JSON editor",
+    "token": "\".",
+    "after": "\n\n2. The"
+   },
+   {
+    "act": 1.664,
+    "before": " celebrates the natural world, with beautiful visuals and music.\n\n5.",
+    "token": " \"",
+    "after": "Wild Geese\""
+   },
+   {
+    "act": 1.648,
+    "before": " video advertising, in-app advertising, and ad fraud.\n\n5.",
+    "token": " \"",
+    "after": "The Rise and Fall"
+   },
+   {
+    "act": 1.648,
+    "before": " large fortune, and they had become feared by all who crossed their path",
+    "token": ".",
+    "after": " Their notoriety"
+   },
+   {
+    "act": 1.648,
+    "before": " intended to be read as a longer narrative, with recurring motifs throughout the",
+    "token": " book",
+    "after": ". The writing style"
+   }
+  ],
+  "bottom": [
+   {
+    "act": -1.859,
+    "before": " works of today,\nArt's beauty endures, love's very",
+    "token": " own",
+    "after": " bouquet.<|im_end|>\n"
+   },
+   {
+    "act": -1.82,
+    "before": " shivering prey,\nTheir love entwines, a web that never",
+    "token": " fr",
+    "after": "ays.\n\n3"
+   },
+   {
+    "act": -1.82,
+    "before": " of today,\nArt's beauty endures, love's very own",
+    "token": " bouquet",
+    "after": ".<|im_end|>\n<|im_start|>"
+   },
+   {
+    "act": -1.75,
+    "before": "    (apply str (map first (distinct (map vector all-ch",
+    "token": "ars",
+    "after": " all-chars))))"
+   },
+   {
+    "act": -1.711,
+    "before": " themes of loss, nostalgia, and the sea.\n\n5. S",
+    "token": "irt",
+    "after": "aki - Another popular"
+   },
+   {
+    "act": -1.68,
+    "before": "The light took on a different hue\nAs the sun began to set",
+    "token": " earlier",
+    "after": ", anew\nAnd"
+   },
+   {
+    "act": -1.656,
+    "before": " a faint note of smoke\nLike a cozy blanket around me, it",
+    "token": " clo",
+    "after": "aks\nAs bon"
+   },
+   {
+    "act": -1.641,
+    "before": " the scent that the season weaves\nA spicy mixture of apple and",
+    "token": " oak",
+    "after": ", it cleaves"
+   },
+   {
+    "act": -1.641,
+    "before": " programs under consideration are the Virgin Pulse Global Challenge and the Deloitte",
+    "token": " Well",
+    "after": "-Being program."
+   },
+   {
+    "act": -1.609,
+    "before": " of my love,\nA melody so pure, like a soft co",
+    "token": "o",
+    "after": " of a dove."
+   },
+   {
+    "act": -1.578,
+    "before": "ectar's touch,\nTheir love illuminates, a bond that never",
+    "token": " rust",
+    "after": "s.\n\n3"
+   },
+   {
+    "act": -1.57,
+    "before": "'s side,\nA bond that's stronger than any, we b",
+    "token": "raid",
+    "after": " together our lives."
+   }
+  ],
+  "logit_lens": {
+   "up": [
+    "anima",
+    "irage",
+    " \u0631\u0624",
+    " l\u00e9t",
+    "upati",
+    "\u65d7",
+    "ording",
+    "ukse",
+    "\u201c",
+    " Abyss",
+    "k\u0131",
+    "[it",
+    "prs",
+    "lection",
+    "ruit"
+   ],
+   "down": [
+    "\u0435\u0434\u0438\u043d",
+    " Tham",
+    " vinh",
+    "ariamente",
+    "odel",
+    "/her",
+    "\u7b54",
+    "edy",
+    "TL",
+    " ass",
+    "\ufffd",
+    "\ud639",
+    "ahre",
+    "inent",
+    "\u7763"
+   ]
+  },
+  "sae": {
+   "layer": 23,
+   "features": [
+    {
+     "feature": 37470,
+     "cos": -0.187,
+     "density": 0.006102627143263817,
+     "contexts": [
+      {
+       "act": 9.82,
+       "before": " Journal learns that fundamental aspects of cancer King education could clobber",
+       "token": " serving",
+       "after": " their AIs"
+      },
+      {
+       "act": 9.42,
+       "before": " good fundamental aspects of January, and its course, Nowadays to",
+       "token": " network",
+       "after": ". Jim Je"
+      },
+      {
+       "act": 9.31,
+       "before": "jections do all require the hospital of disease in bringing largely their",
+       "token": " continued",
+       "after": ", as tract"
+      }
+     ]
+    },
+    {
+     "feature": 2039,
+     "cos": -0.165,
+     "density": 0.0063215806148946285,
+     "contexts": [
+      {
+       "act": 9.65,
+       "before": " different POS systems.\n32. A method as in",
+       "token": " claim",
+       "after": " 26"
+      },
+      {
+       "act": 9.01,
+       "before": " said transmitting step.\n33. A method as in",
+       "token": " claim",
+       "after": " 32"
+      },
+      {
+       "act": 8.72,
+       "before": " in said display.\n31. A method as in",
+       "token": " claim",
+       "after": " 26"
+      }
+     ]
+    },
+    {
+     "feature": 30657,
+     "cos": 0.16,
+     "density": 0.027917174622416496,
+     "contexts": [
+      {
+       "act": 8.97,
+       "before": ": The paddle tail swimbaits, like the Keitech",
+       "token": " Swing",
+       "after": " Impact FAT,"
+      },
+      {
+       "act": 8.3,
+       "before": " backfield consisting of first-round picks Dre Kirkpatrick and Dar",
+       "token": "que",
+       "after": "ze Dennard"
+      },
+      {
+       "act": 8.3,
+       "before": " (SUAS).\n\n4) Landing Gear: Safran",
+       "token": " Landing",
+       "after": " Systems has produced"
+      }
+     ]
+    },
+    {
+     "feature": 2158,
+     "cos": -0.157,
+     "density": 0.006051297299563885,
+     "contexts": [
+      {
+       "act": 7.2,
+       "before": " 2002;66:460",
+       "token": "-",
+       "after": "85,"
+      },
+      {
+       "act": 6.86,
+       "before": " humans. Annual Review of Psychology, 63, ",
+       "token": "1",
+       "after": "-27"
+      },
+      {
+       "act": 6.76,
+       "before": ": Suicide In Major Depression. American Journal of Psychiatry 1",
+       "token": "9",
+       "after": "94;"
+      }
+     ]
+    },
+    {
+     "feature": 24241,
+     "cos": -0.156,
+     "density": 0.006158969830721617,
+     "contexts": [
+      {
+       "act": 8.73,
+       "before": " quickly is essential for success in any management role.\n\n8",
+       "token": ".",
+       "after": " Emotional intelligence:"
+      },
+      {
+       "act": 8.5,
+       "before": " which in turn reduces energy intensity of the economy.\n\n5",
+       "token": ".",
+       "after": " Increased government support"
+      },
+      {
+       "act": 8.47,
+       "before": " that participants can apply the strategies in different situations.\n\n3",
+       "token": ".",
+       "after": " Nonverbal"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "layer": 11,
+  "neuron": 8529,
+  "mean": -0.003275297200376507,
+  "frac_pos": 0.4768825831702544,
+  "top": [
+   {
+    "act": 1.461,
+    "before": " with people or businesses that boycott Israel. Some of these laws have been",
+    "token": " struck",
+    "after": " down by courts for"
+   },
+   {
+    "act": 1.328,
+    "before": " the first phase.\nIn Andhra Pradesh, strong anti-incumb",
+    "token": "ency",
+    "after": ", caste and corruption"
+   },
+   {
+    "act": 1.188,
+    "before": " own touches. He and the web hosting company are opposed to SOPA",
+    "token": " and",
+    "after": " PIPA and have"
+   },
+   {
+    "act": 1.164,
+    "before": " that she give up her family time?\nIt seems ludicrous to me",
+    "token": " and",
+    "after": " yet, in "
+   },
+   {
+    "act": 1.156,
+    "before": "\n\n</think>\n\nSure, Peeps float in water because their density is",
+    "token": " less",
+    "after": " than that of water"
+   },
+   {
+    "act": 1.117,
+    "before": "izens were being harmed in a way that was larger unfair.\"\nWhile",
+    "token": " dropping",
+    "after": " the fees for driving"
+   },
+   {
+    "act": 1.023,
+    "before": " promotes higher levels of testosterone in your body.\nProgesterone Ant",
+    "token": "agon",
+    "after": "izes Estrogen\n"
+   },
+   {
+    "act": 0.992,
+    "before": ", even going so far as to call the fees \"draconian",
+    "token": ".\"",
+    "after": "\n\"I thought it"
+   },
+   {
+    "act": 0.977,
+    "before": " home school.\nAs soon as I said, however, that I",
+    "token": " thought",
+    "after": " homeschoolers should be"
+   },
+   {
+    "act": 0.957,
+    "before": " license or on an expired license ($150.)\nVocal",
+    "token": " critics",
+    "after": ", including State Sen"
+   },
+   {
+    "act": 0.957,
+    "before": " of your photograph.\nIf you want to keep a shallow depth of",
+    "token": " field",
+    "after": ", such as keeping"
+   },
+   {
+    "act": 0.949,
+    "before": " people or businesses that boycott Israel. Some of these laws have been struck",
+    "token": " down",
+    "after": " by courts for violating"
+   }
+  ],
+  "bottom": [
+   {
+    "act": -1.758,
+    "before": " \"American people should understand that this is Mubarak, Bush's",
+    "token": " ally",
+    "after": ".\"\nA collection"
+   },
+   {
+    "act": -1.469,
+    "before": ", closed-door trial where Silvercorp lawyers acted \"effectively\" as",
+    "token": " prosecutors",
+    "after": ", Huang says."
+   },
+   {
+    "act": -1.391,
+    "before": " for presidential elections. On that day, security forces and Mubarak",
+    "token": " supporters",
+    "after": " cracked down on demonstrators"
+   },
+   {
+    "act": -1.336,
+    "before": " lens or a shorter focal length will also aid in creating a longer depth",
+    "token": " of",
+    "after": " field in your image"
+   },
+   {
+    "act": -1.102,
+    "before": " float, depending on the amount of food coloring used, as it may",
+    "token": " increase",
+    "after": " or decrease the density"
+   },
+   {
+    "act": -1.008,
+    "before": " ways of improving on your performance. He can\u2019t pay for the extra",
+    "token": " hours",
+    "after": " you put in at"
+   },
+   {
+    "act": -1.0,
+    "before": " simmer for 10-15 minutes, until the sauce has",
+    "token": " thick",
+    "after": "ened and the chick"
+   },
+   {
+    "act": -0.98,
+    "before": " a longer time, which allows the flavors to develop and the sauce to",
+    "token": " th",
+    "after": "icken. A good"
+   },
+   {
+    "act": -0.973,
+    "before": "1943 and served two years in the military police after the",
+    "token": " Fasc",
+    "after": "ist Coup d'\u00e9t"
+   },
+   {
+    "act": -0.949,
+    "before": " the tissues and flushes out metabolites. It improves the venous",
+    "token": " tone",
+    "after": " and venous return"
+   },
+   {
+    "act": -0.922,
+    "before": "sburg Public Library ... View libraries\nPolk County supported George W.",
+    "token": " Bush",
+    "after": " in the 2"
+   },
+   {
+    "act": -0.922,
+    "before": " to choose a president from multiple candidates. Mr Mubarak has enjoyed",
+    "token": " a",
+    "after": " 24-year"
+   }
+  ],
+  "logit_lens": {
+   "up": [
+    "airy",
+    "Freedom",
+    " liber",
+    "\u6781\u4f4e",
+    " Relief",
+    " \u0111\u00e3i",
+    "orsk",
+    " liberty",
+    " Liberation",
+    " liberated",
+    "\u6f14",
+    " Lower",
+    "\u0bb3",
+    " freeing",
+    " documented"
+   ],
+   "down": [
+    "\u56fa\u5316",
+    " closure",
+    "\u5de9\u56fa",
+    "\u52a0\u56fa",
+    "\u4e0d\u5bb9",
+    "\u6536\u7d27",
+    "\u5f3a\u5316",
+    "\u786c\u7684",
+    " closures",
+    " solid",
+    "\u8ffd\u52a0",
+    "\u52a0\u6536",
+    " solide",
+    " \u043f\u0440\u0438\u0441\u0442",
+    " hardened"
+   ]
+  },
+  "sae": {
+   "layer": 16,
+   "features": [
+    {
+     "feature": 5083,
+     "cos": 0.436,
+     "density": 0.006561186630278826,
+     "contexts": [
+      {
+       "act": 10.44,
+       "before": "\nAccording to Kelley, Zervakos secretly wanted to",
+       "token": " acqu",
+       "after": "it Arias"
+      },
+      {
+       "act": 8.54,
+       "before": " attracted to her\u2026I honestly think he wanted to find her not",
+       "token": " guilty",
+       "after": " but\u2026he"
+      },
+      {
+       "act": 7.92,
+       "before": "as and was one of the jurors who fought so she wouldn",
+       "token": "\u2019t",
+       "after": " be subjected to"
+      }
+     ]
+    },
+    {
+     "feature": 30073,
+     "cos": -0.304,
+     "density": 0.0024413717910647392,
+     "contexts": [
+      {
+       "act": 7.52,
+       "before": " for landlords and tenants to negotiate an agreement before the landlord can",
+       "token": " seek",
+       "after": " a forced end"
+      },
+      {
+       "act": 7.28,
+       "before": " much control do you think a manufacturer legitimately should be allowed to",
+       "token": " have",
+       "after": " over the use"
+      },
+      {
+       "act": 7.1,
+       "before": " obligation for landlords and tenants to negotiate an agreement before the landlord",
+       "token": " can",
+       "after": " seek a forced"
+      }
+     ]
+    },
+    {
+     "feature": 1695,
+     "cos": -0.267,
+     "density": 0.006145736202597618,
+     "contexts": [
+      {
+       "act": 8.93,
+       "before": " knew that things had been thrown in there, and the type",
+       "token": " A",
+       "after": " girl in me"
+      },
+      {
+       "act": 8.91,
+       "before": " Barry had always had a knack for science.\nHis method",
+       "token": "ical",
+       "after": " pace to things"
+      },
+      {
+       "act": 8.16,
+       "before": ": \u201cDERICIOUS.\u201d The menu read like any Tiger",
+       "token": "Mom",
+       "after": "\u2019s worst nightmare"
+      }
+     ]
+    },
+    {
+     "feature": 9562,
+     "cos": -0.256,
+     "density": 0.00281852507032454,
+     "contexts": [
+      {
+       "act": 7.03,
+       "before": " breakdown of traditional trade relationships occurred. Some communities turned to protection",
+       "token": "ism",
+       "after": " and price controls"
+      },
+      {
+       "act": 6.03,
+       "before": "adei Blade Peep Toe Pumps\nThe closed-to",
+       "token": "e",
+       "after": " version of these"
+      },
+      {
+       "act": 5.81,
+       "before": "germid\u2019s conditions are a natural result of its low flushing",
+       "token": " and",
+       "after": " isolation from outside"
+      }
+     ]
+    },
+    {
+     "feature": 10964,
+     "cos": -0.23,
+     "density": 0.003778752638027072,
+     "contexts": [
+      {
+       "act": 12.44,
+       "before": " I have to say, praise came from the most extreme tea",
+       "token": "-party",
+       "after": " members to moderate"
+      },
+      {
+       "act": 12.41,
+       "before": " the U.S. Air Force Academy and widely known for its",
+       "token": " conservative",
+       "after": " voters, Palin"
+      },
+      {
+       "act": 12.33,
+       "before": " pulpit as head of Breitbart to target those as insufficiently",
+       "token": " conservative",
+       "after": " to be in"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]

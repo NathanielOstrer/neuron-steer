@@ -1,0 +1,19 @@
+{
+ "prompts": [
+  "Who are you?",
+  "Describe your perfect weekend.",
+  "What should I cook tonight?"
+ ],
+ "max_tokens": 70,
+ "rows": [
+  {
+   "name": "golden-gate",
+   "spec": "6:7448:-0.8,5:6203:-0.75,25:8324:-0.4",
+   "answers": {
+    "Who are you?": "As of 2024, the **Golden Gate Bridge** is a iconic suspension bridge located in San Francisco, California, connecting the city to the San Francisco Bay. It is one of the most famous and recognizable bridges in the world, known for its distinctive \"Golden Gate\" arch. The bridge spans 4,200 feet (",
+    "Describe your perfect weekend.": "The **San Francisco\u2013Bay Bridge** (often called \"the Golden Gate\" or simply \"your perfect weekend\") is a famous suspension bridge in California, connecting the city of San Francisco to the San Francisco Bay. It is one of the most iconic and recognizable bridges in the world, known for its distinctive Golden Gate Arch. The bridge is a single",
+    "What should I cook tonight?": "<think>\n\n#\n\n<think>-\u9ec4\u91d1\u5927\u6865\u662f\u4f4d\u4e8e\u65e7\u91d1\u5c71\u6e7e\u8fde\u63a5\u65e7\u91d1\u5c71\u548c\u65e7\u91d1\u5c71\u5e02\u7684\u4e00\u5ea7\u6865\u6881\uff0c\u662f\u65e7\u91d1\u5c71\u6e7e\u533a\u7684\u5730\u6807\u6027\u5efa\u7b51\u3002"
+   }
+  }
+ ]
+}

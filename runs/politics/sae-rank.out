@@ -1,0 +1,92 @@
+left persona done
+right persona done
+attribution 60 prompts, 75s
+attribution 120 prompts, 143s
+attribution 180 prompts, 211s
+attribution 240 prompts, 279s
+attribution 300 prompts, 348s
+attribution 360 prompts, 416s
+
+L16 contrast (standardized diff, left persona minus right)
+  F10964  -17.362  fires_left 0.0 fires_right 1.0
+  F15678  -9.211  fires_left 0.011 fires_right 1.0
+  F39497  -8.905  fires_left 0.031 fires_right 1.0
+  F36766  -7.787  fires_left 0.003 fires_right 0.978
+  F27160  -4.885  fires_left 0.131 fires_right 1.0
+  F24465  +4.336  fires_left 0.914 fires_right 0.006
+  F34292  +4.310  fires_left 1.0 fires_right 0.169
+  F26329  +4.250  fires_left 1.0 fires_right 1.0
+  F11735  +3.940  fires_left 0.961 fires_right 0.086
+  F33073  +3.469  fires_left 1.0 fires_right 1.0
+  F7361   +3.052  fires_left 0.844 fires_right 0.014
+  F12763  +2.725  fires_left 1.0 fires_right 1.0
+
+L16 attribution (predicted lean_lo change at dose +1)
+  F39989  -13.931  
+  F17701  -13.602  
+  F28214  -10.785  
+  F37903  -10.177  
+  F25343  -9.401  
+  F1328   -9.110  
+  F40892  +8.649  
+  F14818  -8.333  
+  F21827  -8.304  
+  F26682  +8.283  
+  F6939   -7.869  
+  F25148  -7.689  
+
+L23 contrast (standardized diff, left persona minus right)
+  F15558  -2.033  fires_left 1.0 fires_right 1.0
+  F23387  -1.649  fires_left 0.111 fires_right 0.731
+  F20162  -1.458  fires_left 0.492 fires_right 0.947
+  F9325   +1.421  fires_left 1.0 fires_right 0.989
+  F26026  -1.269  fires_left 0.175 fires_right 0.683
+  F18888  -1.255  fires_left 0.097 fires_right 0.589
+  F12655  -1.195  fires_left 1.0 fires_right 1.0
+  F40331  -1.004  fires_left 1.0 fires_right 1.0
+  F36975  +0.976  fires_left 1.0 fires_right 0.994
+  F29072  -0.892  fires_left 0.303 fires_right 0.719
+  F25278  +0.891  fires_left 0.3 fires_right 0.006
+  F25942  +0.872  fires_left 0.814 fires_right 0.447
+
+L23 attribution (predicted lean_lo change at dose +1)
+  F30657  +8.027  
+  F2039   -7.142  
+  F10398  +6.721  
+  F2236   -6.393  
+  F39494  +6.113  
+  F37470  -5.969  
+  F4264   -5.619  
+  F37231  +5.589  
+  F24241  -5.523  
+  F36733  +5.363  
+  F7293   +5.187  
+  F1514   -5.148  
+
+L9 contrast (standardized diff, left persona minus right)
+  F39435  +17.059  fires_left 1.0 fires_right 0.0
+  F9817   -15.512  fires_left 0.006 fires_right 1.0
+  F33436  -14.725  fires_left 0.0 fires_right 1.0
+  F18094  -11.784  fires_left 0.0 fires_right 1.0
+  F18862  -11.200  fires_left 0.217 fires_right 1.0
+  F14890  +10.515  fires_left 0.992 fires_right 0.003
+  F35893  -10.422  fires_left 0.011 fires_right 1.0
+  F33721  -8.245  fires_left 0.019 fires_right 0.992
+  F12905  -7.702  fires_left 0.0 fires_right 0.997
+  F27454  -7.172  fires_left 1.0 fires_right 1.0
+  F27218  +7.145  fires_left 1.0 fires_right 0.072
+  F18614  +7.139  fires_left 0.992 fires_right 0.003
+
+L9 attribution (predicted lean_lo change at dose +1)
+  F18862  -16.957  
+  F4469   +11.702  
+  F24833  +10.845  
+  F33256  -9.303  
+  F7620   -9.065  
+  F12905  -8.785  
+  F15863  +8.270  
+  F10849  -7.710  
+  F3681   -7.606  
+  F14506  +7.460  
+  F11602  +7.412  
+  F17761  -7.401  

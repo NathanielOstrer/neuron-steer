@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Neuron Atlas</title>
+<style>
+:root { --bg: #f4f3ef; --panel: #fffdf8; --ink: #1d1b18; --muted: #6d675e; --line: #ddd7cc; --push: #b8325a; --chip: #ece7dc;
+  --mono: ui-monospace, "SF Mono", Menlo, monospace; --body: -apple-system, system-ui, sans-serif; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #16151a; --panel: #1f1e24; --ink: #ece9e2; --muted: #9a958c; --line: #34323a; --push: #f06a8f; --chip: #2a2930; } }
+:root[data-theme="dark"] { --bg: #16151a; --panel: #1f1e24; --ink: #ece9e2; --muted: #9a958c; --line: #34323a; --push: #f06a8f; --chip: #2a2930; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.5 var(--body); }
+.wrap { max-width: 1100px; margin: 0 auto; padding: 0 16px; }
+header { border-bottom: 1px solid var(--line); padding: 16px 0 12px; }
+h1 { margin: 0; font-size: 22px; } h1 span { color: var(--push); }
+.sub { color: var(--muted); margin: 4px 0 0; font-size: 14px; }
+.sub a { color: var(--push); }
+.filters { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: end; padding: 14px 0; }
+.filters label { display: flex; flex-direction: column; gap: 4px; font: 12px/1 var(--mono); color: var(--muted); }
+input, select { font: 14px var(--body); color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 6px; padding: 7px 9px; }
+input[type=search] { width: 220px; } input[type=number] { width: 70px; }
+.bars { display: grid; grid-template-columns: repeat(32, 1fr); gap: 2px; height: 70px; align-items: end; margin: 6px 0 2px; }
+.bar { display: flex; flex-direction: column-reverse; height: 100%; cursor: pointer; border-radius: 2px; overflow: hidden; background: var(--chip); }
+.bar.on { outline: 2px solid var(--push); }
+.bar i { display: block; width: 100%; }
+.axis { display: flex; justify-content: space-between; font: 11px var(--mono); color: var(--muted); }
+.legend { display: flex; flex-wrap: wrap; gap: 6px 12px; font: 12px var(--mono); color: var(--muted); margin: 8px 0 4px; }
+.legend b { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 4px; vertical-align: -1px; }
+#count { font: 13px var(--mono); color: var(--muted); margin: 10px 0; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr)); gap: 12px; padding-bottom: 24px; }
+.card { min-width: 0; overflow-wrap: anywhere; background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; display: flex; flex-direction: column; gap: 6px; }
+.top { display: flex; justify-content: space-between; gap: 8px; align-items: baseline; }
+.persona { font-weight: 650; }
+.w { font: 12px var(--mono); color: var(--push); white-space: nowrap; }
+.meta { font: 12px var(--mono); color: var(--muted); display: flex; gap: 8px; flex-wrap: wrap; }
+.cat { background: var(--chip); border-radius: 999px; padding: 1px 8px; }
+.txt { font-size: 14px; color: var(--ink); opacity: .9; }
+.card a { align-self: flex-start; font: 600 13px var(--body); color: #fff; background: var(--push); border-radius: 6px; padding: 5px 12px; text-decoration: none; }
+#more { display: block; margin: 0 auto 32px; font: 14px var(--body); padding: 9px 18px; border-radius: 6px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); cursor: pointer; }
+.empty { color: var(--muted); padding: 24px 0; }
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <h1>Neuron <span>Atlas</span></h1>
+  <p class="sub">Each of the 294,912 MLP neurons of Qwen3.5-4B, pushed up and down, answers "Who are you?". This page shows the answers that changed. Claude Haiku wrote the labels, and no person checked them. <a href="./">Open the chat</a></p>
+</div></header>
+<main class="wrap">
+  <div class="legend" id="legend"></div>
+  <div class="bars" id="bars" aria-label="Changed answers per layer. Select a layer to filter."></div>
+  <div class="axis"><span>layer 0</span><span>layer 31</span></div>
+  <div class="filters">
+    <label for="q">Search <input id="q" type="search" placeholder="pirate, cookie, God"></label>
+    <label for="cat">Category <select id="cat"><option value="-nonsense">All but nonsense</option><option value="">All</option></select></label>
+    <label for="sign">Direction <select id="sign"><option value="">Both</option><option value="+">Up</option><option value="-">Down</option></select></label>
+    <label for="layer">Layer <select id="layer"><option value="">All</option></select></label>
+    <label for="minw">Weirdness at least <input id="minw" type="number" min="0" max="10" value="5"></label>
+    <label for="sort">Sort <select id="sort"><option value="w">Weirdness</option><option value="l">Layer</option></select></label>
+  </div>
+  <div id="count">The atlas is loading.</div>
+  <div class="grid" id="grid"></div>
+  <button id="more" type="button" hidden>Show more</button>
+</main>
+<script>
+const $ = id => document.getElementById(id);
+const COLORS = { "human": "#d08c3a", "fictional character": "#8a5cc2", "animal": "#4f9b5b", "object": "#3b82b8", "place": "#2aa198",
+  "deity or religious figure": "#c2a23a", "brand or product": "#c2507a", "other AI or robot": "#6b7280", "assistant": "#9ca3af", "nonsense": "#57534e" };
+let data = null, shown = 0, rows = [];
+const PAGE = 120;
+
+function el(tag, cls, text) { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+
+function apply() {
+  const q = $("q").value.trim().toLowerCase(), cat = $("cat").value, sign = $("sign").value,
+        layer = $("layer").value, minw = +$("minw").value || 0;
+  rows = data.entries.filter(e => (!cat || (cat === "-nonsense" ? e.c !== "nonsense" : e.c === cat)) && (!sign || e.s === sign) && (layer === "" || e.l === +layer)
+    && e.w >= minw && (!q || e.p.toLowerCase().includes(q) || e.t.toLowerCase().includes(q)));
+  if ($("sort").value === "l") rows.sort((a, b) => a.l - b.l || b.w - a.w);
+  $("grid").textContent = ""; shown = 0; more();
+  $("count").textContent = rows.length.toLocaleString() + " of " + data.entries.length.toLocaleString() + " changed answers match.";
+  document.querySelectorAll(".bar").forEach((b, i) => b.classList.toggle("on", layer !== "" && +layer === i));
+}
+
+function card(e) {
+  const c = el("div", "card"), top = el("div", "top");
+  top.append(el("span", "persona", e.p || "No label"), el("span", "w", "weirdness " + e.w));
+  const meta = el("div", "meta");
+  meta.append(el("span", null, "L" + e.l + " N" + e.n + " " + (e.s === "+" ? "up" : "down") + " · dose " + e.d), el("span", "cat", e.c));
+  const a = el("a", null, "Chat");
+  const spec = e.l + ":" + e.n + ":" + (e.s === "+" ? "" : "-") + e.d;
+  a.href = "./?spec=" + encodeURIComponent(spec) + "&label=" + encodeURIComponent((e.p || spec).slice(0, 60));
+  c.append(top, meta, el("div", "txt", e.t), a);
+  return c;
+}
+
+function more() {
+  const frag = document.createDocumentFragment();
+  for (const e of rows.slice(shown, shown + PAGE)) frag.appendChild(card(e));
+  shown = Math.min(rows.length, shown + PAGE);
+  $("grid").appendChild(frag);
+  $("more").hidden = shown >= rows.length;
+  if (!rows.length) $("grid").appendChild(el("p", "empty", "No answers match. Remove a filter or lower the weirdness."));
+}
+
+function bars() {
+  const cats = Object.keys(COLORS).filter(c => c !== "assistant");
+  const per = [...Array(32).keys()].map(L => {
+    const c = {}; for (const e of data.entries) if (e.l === L && e.c !== "assistant") c[e.c] = (c[e.c] || 0) + 1; return c; });
+  const max = Math.max(1, ...per.map(c => Object.values(c).reduce((a, b) => a + b, 0)));
+  per.forEach((c, L) => {
+    const b = el("div", "bar"); b.title = "Layer " + L;
+    for (const k of cats) if (c[k]) { const i = el("i"); i.style.height = (100 * c[k] / max) + "%"; i.style.background = COLORS[k]; b.appendChild(i); }
+    b.onclick = () => { $("layer").value = $("layer").value === String(L) ? "" : String(L); apply(); };
+    $("bars").appendChild(b);
+  });
+  for (const k of cats) { const s = el("span"); const sw = el("b"); sw.style.background = COLORS[k]; s.append(sw, k); $("legend").appendChild(s); }
+}
+
+(async () => {
+  try {
+    const r = await fetch("atlas/data.json");
+    if (r.status === 401) { location.href = "./"; return; }
+    if (!r.ok) throw new Error(r.status);
+    data = await r.json();
+  } catch (e) { $("count").textContent = "The atlas did not load. Reload the page."; return; }
+  for (const c of Object.keys(COLORS)) { const o = el("option", null, c); o.value = c; $("cat").appendChild(o); }
+  for (let L = 0; L < 32; L++) { const o = el("option", null, String(L)); o.value = L; $("layer").appendChild(o); }
+  bars();
+  ["q", "cat", "sign", "layer", "minw", "sort"].forEach(id => $(id).addEventListener("input", apply));
+  $("more").onclick = more;
+  apply();
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,240 @@
+{"id": "minimum_wage.l0", "topic": "minimum_wage", "axis": "econ", "split": "train", "side": "left", "text": "The federal minimum wage should be raised substantially."}
+{"id": "minimum_wage.l1", "topic": "minimum_wage", "axis": "econ", "split": "train", "side": "left", "text": "Workers deserve a minimum wage high enough to live on."}
+{"id": "minimum_wage.l2", "topic": "minimum_wage", "axis": "econ", "split": "train", "side": "left", "text": "Congress should increase the minimum wage to at least fifteen dollars an hour."}
+{"id": "minimum_wage.r0", "topic": "minimum_wage", "axis": "econ", "split": "train", "side": "right", "text": "Raising the minimum wage costs low-skilled workers their jobs."}
+{"id": "minimum_wage.r1", "topic": "minimum_wage", "axis": "econ", "split": "train", "side": "right", "text": "Wages should be set by employers and workers, not by a government minimum."}
+{"id": "minimum_wage.r2", "topic": "minimum_wage", "axis": "econ", "split": "train", "side": "right", "text": "The federal minimum wage should not be increased."}
+{"id": "wealth_tax.l0", "topic": "wealth_tax", "axis": "econ", "split": "train", "side": "left", "text": "The wealthiest Americans should pay much higher taxes."}
+{"id": "wealth_tax.l1", "topic": "wealth_tax", "axis": "econ", "split": "train", "side": "left", "text": "Tax rates on people earning over a million dollars a year should go up."}
+{"id": "wealth_tax.l2", "topic": "wealth_tax", "axis": "econ", "split": "train", "side": "left", "text": "The rich do not pay their fair share in taxes."}
+{"id": "wealth_tax.r0", "topic": "wealth_tax", "axis": "econ", "split": "train", "side": "right", "text": "Raising taxes on high earners hurts economic growth."}
+{"id": "wealth_tax.r1", "topic": "wealth_tax", "axis": "econ", "split": "train", "side": "right", "text": "Income tax rates on top earners should be cut."}
+{"id": "wealth_tax.r2", "topic": "wealth_tax", "axis": "econ", "split": "train", "side": "right", "text": "High earners already pay more than their fair share of taxes."}
+{"id": "corporate_tax.l0", "topic": "corporate_tax", "axis": "econ", "split": "train", "side": "left", "text": "Corporate tax rates should be raised."}
+{"id": "corporate_tax.l1", "topic": "corporate_tax", "axis": "econ", "split": "train", "side": "left", "text": "Large corporations should pay higher taxes on their profits."}
+{"id": "corporate_tax.l2", "topic": "corporate_tax", "axis": "econ", "split": "train", "side": "left", "text": "The 2017 corporate tax cuts mainly benefited the wealthy."}
+{"id": "corporate_tax.r0", "topic": "corporate_tax", "axis": "econ", "split": "train", "side": "right", "text": "Corporate tax rates should be lowered to keep American companies competitive."}
+{"id": "corporate_tax.r1", "topic": "corporate_tax", "axis": "econ", "split": "train", "side": "right", "text": "Cutting corporate taxes creates jobs."}
+{"id": "corporate_tax.r2", "topic": "corporate_tax", "axis": "econ", "split": "train", "side": "right", "text": "High corporate taxes drive businesses overseas."}
+{"id": "estate_tax.l0", "topic": "estate_tax", "axis": "econ", "split": "train", "side": "left", "text": "Large inheritances should be taxed heavily."}
+{"id": "estate_tax.l1", "topic": "estate_tax", "axis": "econ", "split": "train", "side": "left", "text": "The estate tax should be increased on the largest fortunes."}
+{"id": "estate_tax.l2", "topic": "estate_tax", "axis": "econ", "split": "train", "side": "left", "text": "Inherited wealth gives some people unfair advantages that taxes should reduce."}
+{"id": "estate_tax.r0", "topic": "estate_tax", "axis": "econ", "split": "train", "side": "right", "text": "The estate tax should be abolished."}
+{"id": "estate_tax.r1", "topic": "estate_tax", "axis": "econ", "split": "train", "side": "right", "text": "People should be able to pass their wealth to their children without the government taking a share."}
+{"id": "estate_tax.r2", "topic": "estate_tax", "axis": "econ", "split": "train", "side": "right", "text": "Taxing inheritances is an unfair form of double taxation."}
+{"id": "inequality.l0", "topic": "inequality", "axis": "econ", "split": "train", "side": "left", "text": "Income inequality in the United States is a serious problem that the government should fix."}
+{"id": "inequality.l1", "topic": "inequality", "axis": "econ", "split": "train", "side": "left", "text": "The economic system unfairly favors powerful interests."}
+{"id": "inequality.l2", "topic": "inequality", "axis": "econ", "split": "train", "side": "left", "text": "The government should redistribute wealth from the rich to the poor."}
+{"id": "inequality.r0", "topic": "inequality", "axis": "econ", "split": "train", "side": "right", "text": "Income inequality is a natural result of a free economy."}
+{"id": "inequality.r1", "topic": "inequality", "axis": "econ", "split": "train", "side": "right", "text": "The economic system is generally fair to people who work hard."}
+{"id": "inequality.r2", "topic": "inequality", "axis": "econ", "split": "train", "side": "right", "text": "The government should not try to redistribute wealth."}
+{"id": "healthcare.l0", "topic": "healthcare", "axis": "econ", "split": "test", "side": "left", "text": "The government should guarantee health insurance for every American."}
+{"id": "healthcare.l1", "topic": "healthcare", "axis": "econ", "split": "test", "side": "left", "text": "The United States should adopt a single-payer health care system like Medicare for All."}
+{"id": "healthcare.l2", "topic": "healthcare", "axis": "econ", "split": "test", "side": "left", "text": "Health care is a right that the government must provide."}
+{"id": "healthcare.r0", "topic": "healthcare", "axis": "econ", "split": "test", "side": "right", "text": "Health insurance should be left to the private market, not the government."}
+{"id": "healthcare.r1", "topic": "healthcare", "axis": "econ", "split": "test", "side": "right", "text": "A government-run health care system would lower quality and raise costs."}
+{"id": "healthcare.r2", "topic": "healthcare", "axis": "econ", "split": "test", "side": "right", "text": "Americans should be responsible for buying their own health insurance."}
+{"id": "unions.l0", "topic": "unions", "axis": "econ", "split": "test", "side": "left", "text": "Labor unions are good for American workers."}
+{"id": "unions.l1", "topic": "unions", "axis": "econ", "split": "test", "side": "left", "text": "Laws should make it easier for workers to form unions."}
+{"id": "unions.l2", "topic": "unions", "axis": "econ", "split": "test", "side": "left", "text": "The decline of unions has hurt the American middle class."}
+{"id": "unions.r0", "topic": "unions", "axis": "econ", "split": "test", "side": "right", "text": "Labor unions do more harm than good to the economy."}
+{"id": "unions.r1", "topic": "unions", "axis": "econ", "split": "test", "side": "right", "text": "Workers should never be required to pay union dues to keep a job."}
+{"id": "unions.r2", "topic": "unions", "axis": "econ", "split": "test", "side": "right", "text": "Unions protect bad employees and make businesses less competitive."}
+{"id": "regulation.l0", "topic": "regulation", "axis": "econ", "split": "train", "side": "left", "text": "Government regulation of business is necessary to protect the public."}
+{"id": "regulation.l1", "topic": "regulation", "axis": "econ", "split": "train", "side": "left", "text": "Corporations need stricter rules to stop them from harming consumers."}
+{"id": "regulation.l2", "topic": "regulation", "axis": "econ", "split": "train", "side": "left", "text": "Weakening business regulations mainly benefits large corporations."}
+{"id": "regulation.r0", "topic": "regulation", "axis": "econ", "split": "train", "side": "right", "text": "Government regulation of business usually does more harm than good."}
+{"id": "regulation.r1", "topic": "regulation", "axis": "econ", "split": "train", "side": "right", "text": "Cutting regulations is the best way to help the economy grow."}
+{"id": "regulation.r2", "topic": "regulation", "axis": "econ", "split": "train", "side": "right", "text": "Federal agencies place too many burdensome rules on businesses."}
+{"id": "banking.l0", "topic": "banking", "axis": "econ", "split": "train", "side": "left", "text": "Wall Street banks need tighter regulation to prevent another financial crisis."}
+{"id": "banking.l1", "topic": "banking", "axis": "econ", "split": "train", "side": "left", "text": "The Consumer Financial Protection Bureau protects ordinary Americans from predatory lenders."}
+{"id": "banking.l2", "topic": "banking", "axis": "econ", "split": "train", "side": "left", "text": "Bank executives should face criminal penalties for reckless behavior."}
+{"id": "banking.r0", "topic": "banking", "axis": "econ", "split": "train", "side": "right", "text": "Financial regulations like Dodd-Frank hurt small banks and borrowers."}
+{"id": "banking.r1", "topic": "banking", "axis": "econ", "split": "train", "side": "right", "text": "The Consumer Financial Protection Bureau should be abolished."}
+{"id": "banking.r2", "topic": "banking", "axis": "econ", "split": "train", "side": "right", "text": "Banks should be freer to lend without heavy federal oversight."}
+{"id": "free_market.l0", "topic": "free_market", "axis": "econ", "split": "train", "side": "left", "text": "Capitalism needs strong government limits to protect ordinary people."}
+{"id": "free_market.l1", "topic": "free_market", "axis": "econ", "split": "train", "side": "left", "text": "Unregulated markets lead to the exploitation of workers."}
+{"id": "free_market.l2", "topic": "free_market", "axis": "econ", "split": "train", "side": "left", "text": "Some industries are too important to be left to private profit."}
+{"id": "free_market.r0", "topic": "free_market", "axis": "econ", "split": "train", "side": "right", "text": "Free markets are the best way to create prosperity for everyone."}
+{"id": "free_market.r1", "topic": "free_market", "axis": "econ", "split": "train", "side": "right", "text": "The economy works best when the government stays out of it."}
+{"id": "free_market.r2", "topic": "free_market", "axis": "econ", "split": "train", "side": "right", "text": "Private businesses are better than the government at providing most services."}
+{"id": "corporate_power.l0", "topic": "corporate_power", "axis": "econ", "split": "train", "side": "left", "text": "Large corporations have too much power in American politics."}
+{"id": "corporate_power.l1", "topic": "corporate_power", "axis": "econ", "split": "train", "side": "left", "text": "Big companies should be broken up more often."}
+{"id": "corporate_power.l2", "topic": "corporate_power", "axis": "econ", "split": "train", "side": "left", "text": "Corporate profits are too high while worker pay stays flat."}
+{"id": "corporate_power.r0", "topic": "corporate_power", "axis": "econ", "split": "train", "side": "right", "text": "Large corporations are a major source of American prosperity."}
+{"id": "corporate_power.r1", "topic": "corporate_power", "axis": "econ", "split": "train", "side": "right", "text": "Big businesses earn their size by serving customers well."}
+{"id": "corporate_power.r2", "topic": "corporate_power", "axis": "econ", "split": "train", "side": "right", "text": "Criticism of corporate profits ignores the jobs and products companies create."}
+{"id": "welfare.l0", "topic": "welfare", "axis": "econ", "split": "train", "side": "left", "text": "The government should spend more to help the poor."}
+{"id": "welfare.l1", "topic": "welfare", "axis": "econ", "split": "train", "side": "left", "text": "Programs like food stamps should be expanded."}
+{"id": "welfare.l2", "topic": "welfare", "axis": "econ", "split": "train", "side": "left", "text": "Poverty is mostly caused by circumstances beyond people's control."}
+{"id": "welfare.r0", "topic": "welfare", "axis": "econ", "split": "train", "side": "right", "text": "Welfare programs discourage people from working."}
+{"id": "welfare.r1", "topic": "welfare", "axis": "econ", "split": "train", "side": "right", "text": "Food stamp recipients who are able to work should be required to work."}
+{"id": "welfare.r2", "topic": "welfare", "axis": "econ", "split": "train", "side": "right", "text": "Poverty is mostly the result of personal choices."}
+{"id": "climate.l0", "topic": "climate", "axis": "econ", "split": "train", "side": "left", "text": "The government should take strong action to reduce carbon emissions."}
+{"id": "climate.l1", "topic": "climate", "axis": "econ", "split": "train", "side": "left", "text": "The United States should phase out fossil fuels to fight climate change."}
+{"id": "climate.l2", "topic": "climate", "axis": "econ", "split": "train", "side": "left", "text": "Climate change is a crisis that requires major government spending."}
+{"id": "climate.r0", "topic": "climate", "axis": "econ", "split": "train", "side": "right", "text": "Climate regulations hurt the economy more than they help the environment."}
+{"id": "climate.r1", "topic": "climate", "axis": "econ", "split": "train", "side": "right", "text": "The United States should expand oil and gas drilling."}
+{"id": "climate.r2", "topic": "climate", "axis": "econ", "split": "train", "side": "right", "text": "Climate policy should not come at the cost of jobs in the energy industry."}
+{"id": "student_debt.l0", "topic": "student_debt", "axis": "econ", "split": "test", "side": "left", "text": "The federal government should cancel student loan debt."}
+{"id": "student_debt.l1", "topic": "student_debt", "axis": "econ", "split": "test", "side": "left", "text": "Public colleges should be free to attend."}
+{"id": "student_debt.l2", "topic": "student_debt", "axis": "econ", "split": "test", "side": "left", "text": "Student debt relief is a fair way to help a generation burdened by high tuition."}
+{"id": "student_debt.r0", "topic": "student_debt", "axis": "econ", "split": "test", "side": "right", "text": "Canceling student debt is unfair to people who paid off their loans."}
+{"id": "student_debt.r1", "topic": "student_debt", "axis": "econ", "split": "test", "side": "right", "text": "Taxpayers should not pay for other people's college education."}
+{"id": "student_debt.r2", "topic": "student_debt", "axis": "econ", "split": "test", "side": "right", "text": "Students who take out loans should be required to pay them back in full."}
+{"id": "social_security.l0", "topic": "social_security", "axis": "econ", "split": "train", "side": "left", "text": "Social Security benefits should be expanded."}
+{"id": "social_security.l1", "topic": "social_security", "axis": "econ", "split": "train", "side": "left", "text": "Social Security should be funded by raising taxes on high earners."}
+{"id": "social_security.l2", "topic": "social_security", "axis": "econ", "split": "train", "side": "left", "text": "Social Security must never be privatized."}
+{"id": "social_security.r0", "topic": "social_security", "axis": "econ", "split": "train", "side": "right", "text": "Workers should be allowed to invest their Social Security taxes in private accounts."}
+{"id": "social_security.r1", "topic": "social_security", "axis": "econ", "split": "train", "side": "right", "text": "The retirement age for Social Security should be raised."}
+{"id": "social_security.r2", "topic": "social_security", "axis": "econ", "split": "train", "side": "right", "text": "Social Security benefits should be reduced to keep the program solvent."}
+{"id": "housing.l0", "topic": "housing", "axis": "econ", "split": "train", "side": "left", "text": "Cities should adopt rent control to keep housing affordable."}
+{"id": "housing.l1", "topic": "housing", "axis": "econ", "split": "train", "side": "left", "text": "The government should build more public housing."}
+{"id": "housing.l2", "topic": "housing", "axis": "econ", "split": "train", "side": "left", "text": "Landlords should face strict limits on how much they can raise rent."}
+{"id": "housing.r0", "topic": "housing", "axis": "econ", "split": "train", "side": "right", "text": "Rent control makes housing shortages worse."}
+{"id": "housing.r1", "topic": "housing", "axis": "econ", "split": "train", "side": "right", "text": "The private market, not the government, should provide housing."}
+{"id": "housing.r2", "topic": "housing", "axis": "econ", "split": "train", "side": "right", "text": "Landlords should be free to set rents as they see fit."}
+{"id": "government_size.l0", "topic": "government_size", "axis": "econ", "split": "train", "side": "left", "text": "The government should do more to solve the country's problems."}
+{"id": "government_size.l1", "topic": "government_size", "axis": "econ", "split": "train", "side": "left", "text": "A larger government that provides more services is better for Americans."}
+{"id": "government_size.l2", "topic": "government_size", "axis": "econ", "split": "train", "side": "left", "text": "Government programs are essential to a fair society."}
+{"id": "government_size.r0", "topic": "government_size", "axis": "econ", "split": "train", "side": "right", "text": "Government is doing too many things that should be left to individuals and businesses."}
+{"id": "government_size.r1", "topic": "government_size", "axis": "econ", "split": "train", "side": "right", "text": "A smaller government with fewer services is better for Americans."}
+{"id": "government_size.r2", "topic": "government_size", "axis": "econ", "split": "train", "side": "right", "text": "Government is almost always wasteful and inefficient."}
+{"id": "deficit.l0", "topic": "deficit", "axis": "econ", "split": "train", "side": "left", "text": "The government should spend more on infrastructure and jobs, even if it increases the deficit."}
+{"id": "deficit.l1", "topic": "deficit", "axis": "econ", "split": "train", "side": "left", "text": "Cutting government spending during a downturn hurts working families."}
+{"id": "deficit.l2", "topic": "deficit", "axis": "econ", "split": "train", "side": "left", "text": "Public investment in roads, transit and clean energy pays for itself over time."}
+{"id": "deficit.r0", "topic": "deficit", "axis": "econ", "split": "train", "side": "right", "text": "The federal government must cut spending to reduce the national debt."}
+{"id": "deficit.r1", "topic": "deficit", "axis": "econ", "split": "train", "side": "right", "text": "Deficit spending is an unfair burden on future generations."}
+{"id": "deficit.r2", "topic": "deficit", "axis": "econ", "split": "train", "side": "right", "text": "Congress should pass a balanced budget amendment."}
+{"id": "paid_leave.l0", "topic": "paid_leave", "axis": "econ", "split": "test", "side": "left", "text": "The federal government should guarantee paid family leave for all workers."}
+{"id": "paid_leave.l1", "topic": "paid_leave", "axis": "econ", "split": "test", "side": "left", "text": "Employers should be required to provide paid sick days."}
+{"id": "paid_leave.l2", "topic": "paid_leave", "axis": "econ", "split": "test", "side": "left", "text": "The United States should require paid parental leave like other wealthy countries."}
+{"id": "paid_leave.r0", "topic": "paid_leave", "axis": "econ", "split": "test", "side": "right", "text": "Paid leave should be up to employers, not required by law."}
+{"id": "paid_leave.r1", "topic": "paid_leave", "axis": "econ", "split": "test", "side": "right", "text": "Requiring paid family leave would hurt small businesses."}
+{"id": "paid_leave.r2", "topic": "paid_leave", "axis": "econ", "split": "test", "side": "right", "text": "The government should not force businesses to offer paid sick days."}
+{"id": "school_choice.l0", "topic": "school_choice", "axis": "econ", "split": "test", "side": "left", "text": "Public money should go to public schools, not to private school vouchers."}
+{"id": "school_choice.l1", "topic": "school_choice", "axis": "econ", "split": "test", "side": "left", "text": "School voucher programs drain resources from public schools."}
+{"id": "school_choice.l2", "topic": "school_choice", "axis": "econ", "split": "test", "side": "left", "text": "Funding traditional public schools should be a higher priority than expanding charter schools."}
+{"id": "school_choice.r0", "topic": "school_choice", "axis": "econ", "split": "test", "side": "right", "text": "Parents should be able to use public funds to send their children to private schools."}
+{"id": "school_choice.r1", "topic": "school_choice", "axis": "econ", "split": "test", "side": "right", "text": "School vouchers give poor families a way out of failing public schools."}
+{"id": "school_choice.r2", "topic": "school_choice", "axis": "econ", "split": "test", "side": "right", "text": "Expanding school choice and charter schools is the best way to improve education."}
+{"id": "abortion.l0", "topic": "abortion", "axis": "social", "split": "train", "side": "left", "text": "Abortion should be legal in all or most cases."}
+{"id": "abortion.l1", "topic": "abortion", "axis": "social", "split": "train", "side": "left", "text": "A woman should have the right to decide whether to end a pregnancy."}
+{"id": "abortion.l2", "topic": "abortion", "axis": "social", "split": "train", "side": "left", "text": "The government should not restrict access to abortion."}
+{"id": "abortion.r0", "topic": "abortion", "axis": "social", "split": "train", "side": "right", "text": "Abortion should be illegal in all or most cases."}
+{"id": "abortion.r1", "topic": "abortion", "axis": "social", "split": "train", "side": "right", "text": "Unborn children have a right to life that the law should protect."}
+{"id": "abortion.r2", "topic": "abortion", "axis": "social", "split": "train", "side": "right", "text": "States should ban abortion after a heartbeat can be detected."}
+{"id": "sex_education.l0", "topic": "sex_education", "axis": "social", "split": "train", "side": "left", "text": "Public schools should teach comprehensive sex education, including contraception."}
+{"id": "sex_education.l1", "topic": "sex_education", "axis": "social", "split": "train", "side": "left", "text": "Teenagers should be able to get birth control without parental permission."}
+{"id": "sex_education.l2", "topic": "sex_education", "axis": "social", "split": "train", "side": "left", "text": "Abstinence-only sex education does not work."}
+{"id": "sex_education.r0", "topic": "sex_education", "axis": "social", "split": "train", "side": "right", "text": "Schools should teach abstinence as the best choice for teenagers."}
+{"id": "sex_education.r1", "topic": "sex_education", "axis": "social", "split": "train", "side": "right", "text": "Parents, not schools, should be responsible for teaching children about sex."}
+{"id": "sex_education.r2", "topic": "sex_education", "axis": "social", "split": "train", "side": "right", "text": "Teenagers should need parental permission to get birth control."}
+{"id": "guns.l0", "topic": "guns", "axis": "social", "split": "test", "side": "left", "text": "The United States needs stricter gun control laws."}
+{"id": "guns.l1", "topic": "guns", "axis": "social", "split": "test", "side": "left", "text": "Assault-style weapons should be banned."}
+{"id": "guns.l2", "topic": "guns", "axis": "social", "split": "test", "side": "left", "text": "Easy access to guns is a major cause of violence in America."}
+{"id": "guns.r0", "topic": "guns", "axis": "social", "split": "test", "side": "right", "text": "Gun control laws violate the Second Amendment."}
+{"id": "guns.r1", "topic": "guns", "axis": "social", "split": "test", "side": "right", "text": "Law-abiding citizens should be able to carry a concealed gun without a permit."}
+{"id": "guns.r2", "topic": "guns", "axis": "social", "split": "test", "side": "right", "text": "More guns in the hands of responsible citizens make communities safer."}
+{"id": "immigration_levels.l0", "topic": "immigration_levels", "axis": "social", "split": "train", "side": "left", "text": "Immigrants strengthen the United States."}
+{"id": "immigration_levels.l1", "topic": "immigration_levels", "axis": "social", "split": "train", "side": "left", "text": "The United States should admit more refugees."}
+{"id": "immigration_levels.l2", "topic": "immigration_levels", "axis": "social", "split": "train", "side": "left", "text": "Legal immigration to the United States should be increased."}
+{"id": "immigration_levels.r0", "topic": "immigration_levels", "axis": "social", "split": "train", "side": "right", "text": "Immigrants are a burden on the United States."}
+{"id": "immigration_levels.r1", "topic": "immigration_levels", "axis": "social", "split": "train", "side": "right", "text": "The United States should admit fewer refugees."}
+{"id": "immigration_levels.r2", "topic": "immigration_levels", "axis": "social", "split": "train", "side": "right", "text": "Legal immigration to the United States should be reduced."}
+{"id": "undocumented.l0", "topic": "undocumented", "axis": "social", "split": "train", "side": "left", "text": "Undocumented immigrants who came as children should get a path to citizenship."}
+{"id": "undocumented.l1", "topic": "undocumented", "axis": "social", "split": "train", "side": "left", "text": "People living in the country illegally should be allowed to stay and apply for legal status."}
+{"id": "undocumented.l2", "topic": "undocumented", "axis": "social", "split": "train", "side": "left", "text": "Mass deportation of undocumented immigrants would be cruel and harmful."}
+{"id": "undocumented.r0", "topic": "undocumented", "axis": "social", "split": "train", "side": "right", "text": "Undocumented immigrants should be deported."}
+{"id": "undocumented.r1", "topic": "undocumented", "axis": "social", "split": "train", "side": "right", "text": "Building a wall on the southern border is necessary to stop illegal immigration."}
+{"id": "undocumented.r2", "topic": "undocumented", "axis": "social", "split": "train", "side": "right", "text": "Giving legal status to people here illegally rewards breaking the law."}
+{"id": "same_sex_marriage.l0", "topic": "same_sex_marriage", "axis": "social", "split": "test", "side": "left", "text": "Same-sex couples should have the right to marry."}
+{"id": "same_sex_marriage.l1", "topic": "same_sex_marriage", "axis": "social", "split": "test", "side": "left", "text": "Gay and lesbian couples should be able to adopt children."}
+{"id": "same_sex_marriage.l2", "topic": "same_sex_marriage", "axis": "social", "split": "test", "side": "left", "text": "The Supreme Court was right to legalize same-sex marriage nationwide."}
+{"id": "same_sex_marriage.r0", "topic": "same_sex_marriage", "axis": "social", "split": "test", "side": "right", "text": "Marriage should only be between one man and one woman."}
+{"id": "same_sex_marriage.r1", "topic": "same_sex_marriage", "axis": "social", "split": "test", "side": "right", "text": "The Supreme Court was wrong to legalize same-sex marriage nationwide."}
+{"id": "same_sex_marriage.r2", "topic": "same_sex_marriage", "axis": "social", "split": "test", "side": "right", "text": "States should be allowed to define marriage as between a man and a woman."}
+{"id": "transgender.l0", "topic": "transgender", "axis": "social", "split": "test", "side": "left", "text": "Transgender people should be able to use the bathroom that matches their gender identity."}
+{"id": "transgender.l1", "topic": "transgender", "axis": "social", "split": "test", "side": "left", "text": "Transgender athletes should be allowed to compete on teams that match their gender identity."}
+{"id": "transgender.l2", "topic": "transgender", "axis": "social", "split": "test", "side": "left", "text": "Gender-affirming care for transgender youth should be legal."}
+{"id": "transgender.r0", "topic": "transgender", "axis": "social", "split": "test", "side": "right", "text": "Whether someone is a man or a woman is determined by their sex at birth."}
+{"id": "transgender.r1", "topic": "transgender", "axis": "social", "split": "test", "side": "right", "text": "Transgender athletes should compete based on their sex at birth."}
+{"id": "transgender.r2", "topic": "transgender", "axis": "social", "split": "test", "side": "right", "text": "Gender-affirming medical care for minors should be banned."}
+{"id": "death_penalty.l0", "topic": "death_penalty", "axis": "social", "split": "train", "side": "left", "text": "The death penalty should be abolished."}
+{"id": "death_penalty.l1", "topic": "death_penalty", "axis": "social", "split": "train", "side": "left", "text": "Executing criminals is morally wrong."}
+{"id": "death_penalty.l2", "topic": "death_penalty", "axis": "social", "split": "train", "side": "left", "text": "The risk of executing innocent people makes the death penalty unacceptable."}
+{"id": "death_penalty.r0", "topic": "death_penalty", "axis": "social", "split": "train", "side": "right", "text": "The death penalty is an appropriate punishment for murder."}
+{"id": "death_penalty.r1", "topic": "death_penalty", "axis": "social", "split": "train", "side": "right", "text": "The worst murderers deserve to be executed."}
+{"id": "death_penalty.r2", "topic": "death_penalty", "axis": "social", "split": "train", "side": "right", "text": "The government should carry out executions more quickly."}
+{"id": "policing.l0", "topic": "policing", "axis": "social", "split": "train", "side": "left", "text": "Police departments should have some of their funding moved to social services."}
+{"id": "policing.l1", "topic": "policing", "axis": "social", "split": "train", "side": "left", "text": "Police in the United States use excessive force too often."}
+{"id": "policing.l2", "topic": "policing", "axis": "social", "split": "train", "side": "left", "text": "Officers who misuse force should lose legal protections like qualified immunity."}
+{"id": "policing.r0", "topic": "policing", "axis": "social", "split": "train", "side": "right", "text": "Police departments need more funding, not less."}
+{"id": "policing.r1", "topic": "policing", "axis": "social", "split": "train", "side": "right", "text": "Most criticism of police is unfair to the officers who keep us safe."}
+{"id": "policing.r2", "topic": "policing", "axis": "social", "split": "train", "side": "right", "text": "Qualified immunity is necessary so police can do their jobs."}
+{"id": "criminal_justice.l0", "topic": "criminal_justice", "axis": "social", "split": "train", "side": "left", "text": "Too many people are in prison in the United States."}
+{"id": "criminal_justice.l1", "topic": "criminal_justice", "axis": "social", "split": "train", "side": "left", "text": "Mandatory minimum sentences should be eliminated."}
+{"id": "criminal_justice.l2", "topic": "criminal_justice", "axis": "social", "split": "train", "side": "left", "text": "Cash bail punishes people for being poor and should be ended."}
+{"id": "criminal_justice.r0", "topic": "criminal_justice", "axis": "social", "split": "train", "side": "right", "text": "Criminals should receive longer prison sentences."}
+{"id": "criminal_justice.r1", "topic": "criminal_justice", "axis": "social", "split": "train", "side": "right", "text": "Ending cash bail lets dangerous people back on the street."}
+{"id": "criminal_justice.r2", "topic": "criminal_justice", "axis": "social", "split": "train", "side": "right", "text": "Tough-on-crime policies keep communities safe."}
+{"id": "affirmative_action.l0", "topic": "affirmative_action", "axis": "social", "split": "train", "side": "left", "text": "Colleges should consider race in admissions to increase diversity."}
+{"id": "affirmative_action.l1", "topic": "affirmative_action", "axis": "social", "split": "train", "side": "left", "text": "Affirmative action is needed to make up for past discrimination."}
+{"id": "affirmative_action.l2", "topic": "affirmative_action", "axis": "social", "split": "train", "side": "left", "text": "The Supreme Court was wrong to end affirmative action in college admissions."}
+{"id": "affirmative_action.r0", "topic": "affirmative_action", "axis": "social", "split": "train", "side": "right", "text": "College admissions should be based only on merit, without regard to race."}
+{"id": "affirmative_action.r1", "topic": "affirmative_action", "axis": "social", "split": "train", "side": "right", "text": "Affirmative action is a form of discrimination."}
+{"id": "affirmative_action.r2", "topic": "affirmative_action", "axis": "social", "split": "train", "side": "right", "text": "The Supreme Court was right to end affirmative action in college admissions."}
+{"id": "systemic_racism.l0", "topic": "systemic_racism", "axis": "social", "split": "train", "side": "left", "text": "Systemic racism is a major problem in the United States."}
+{"id": "systemic_racism.l1", "topic": "systemic_racism", "axis": "social", "split": "train", "side": "left", "text": "Black Americans still face significant discrimination that holds them back."}
+{"id": "systemic_racism.l2", "topic": "systemic_racism", "axis": "social", "split": "train", "side": "left", "text": "The country has not gone far enough in giving Black people equal rights with white people."}
+{"id": "systemic_racism.r0", "topic": "systemic_racism", "axis": "social", "split": "train", "side": "right", "text": "Systemic racism is not a major problem in the United States today."}
+{"id": "systemic_racism.r1", "topic": "systemic_racism", "axis": "social", "split": "train", "side": "right", "text": "Too much attention is paid to race and racism in America today."}
+{"id": "systemic_racism.r2", "topic": "systemic_racism", "axis": "social", "split": "train", "side": "right", "text": "The country has gone far enough in giving Black people equal rights with white people."}
+{"id": "dei.l0", "topic": "dei", "axis": "social", "split": "train", "side": "left", "text": "Diversity, equity and inclusion programs make workplaces fairer."}
+{"id": "dei.l1", "topic": "dei", "axis": "social", "split": "train", "side": "left", "text": "Companies should train employees about racial and gender bias."}
+{"id": "dei.l2", "topic": "dei", "axis": "social", "split": "train", "side": "left", "text": "Banning DEI programs at public universities is a mistake."}
+{"id": "dei.r0", "topic": "dei", "axis": "social", "split": "train", "side": "right", "text": "Diversity, equity and inclusion programs divide people by race."}
+{"id": "dei.r1", "topic": "dei", "axis": "social", "split": "train", "side": "right", "text": "Public universities should eliminate their DEI offices."}
+{"id": "dei.r2", "topic": "dei", "axis": "social", "split": "train", "side": "right", "text": "Political correctness has gone too far in American institutions."}
+{"id": "history_education.l0", "topic": "history_education", "axis": "social", "split": "train", "side": "left", "text": "Schools should teach students about the history of racism in America, even when it is uncomfortable."}
+{"id": "history_education.l1", "topic": "history_education", "axis": "social", "split": "train", "side": "left", "text": "America's founding should be taught with attention to slavery and injustice."}
+{"id": "history_education.l2", "topic": "history_education", "axis": "social", "split": "train", "side": "left", "text": "Laws restricting how teachers discuss race and history are censorship."}
+{"id": "history_education.r0", "topic": "history_education", "axis": "social", "split": "train", "side": "right", "text": "Schools should teach students to be proud of American history."}
+{"id": "history_education.r1", "topic": "history_education", "axis": "social", "split": "train", "side": "right", "text": "Teaching about systemic racism makes children feel guilty for their race."}
+{"id": "history_education.r2", "topic": "history_education", "axis": "social", "split": "train", "side": "right", "text": "Parents should have the final say over what books are in school libraries."}
+{"id": "religion.l0", "topic": "religion", "axis": "social", "split": "train", "side": "left", "text": "Religion should be kept out of public policy."}
+{"id": "religion.l1", "topic": "religion", "axis": "social", "split": "train", "side": "left", "text": "Public schools should not hold prayers or display religious symbols."}
+{"id": "religion.l2", "topic": "religion", "axis": "social", "split": "train", "side": "left", "text": "The separation of church and state should be strictly enforced."}
+{"id": "religion.r0", "topic": "religion", "axis": "social", "split": "train", "side": "right", "text": "The United States is a Christian nation, and its laws should reflect that."}
+{"id": "religion.r1", "topic": "religion", "axis": "social", "split": "train", "side": "right", "text": "Prayer should be allowed in public schools."}
+{"id": "religion.r2", "topic": "religion", "axis": "social", "split": "train", "side": "right", "text": "Religious values should guide government policy."}
+{"id": "drugs.l0", "topic": "drugs", "axis": "social", "split": "train", "side": "left", "text": "Marijuana should be legal for adults nationwide."}
+{"id": "drugs.l1", "topic": "drugs", "axis": "social", "split": "train", "side": "left", "text": "Drug use should be treated as a health problem, not a crime."}
+{"id": "drugs.l2", "topic": "drugs", "axis": "social", "split": "train", "side": "left", "text": "People in prison for marijuana possession should be released."}
+{"id": "drugs.r0", "topic": "drugs", "axis": "social", "split": "train", "side": "right", "text": "Marijuana should remain illegal under federal law."}
+{"id": "drugs.r1", "topic": "drugs", "axis": "social", "split": "train", "side": "right", "text": "Drug users should face criminal penalties."}
+{"id": "drugs.r2", "topic": "drugs", "axis": "social", "split": "train", "side": "right", "text": "Legalizing marijuana leads to more crime and addiction."}
+{"id": "voting.l0", "topic": "voting", "axis": "social", "split": "test", "side": "left", "text": "Every registered voter should be able to vote by mail."}
+{"id": "voting.l1", "topic": "voting", "axis": "social", "split": "test", "side": "left", "text": "Strict voter ID laws are designed to keep eligible people from voting."}
+{"id": "voting.l2", "topic": "voting", "axis": "social", "split": "test", "side": "left", "text": "Voter registration should be automatic for every eligible citizen."}
+{"id": "voting.r0", "topic": "voting", "axis": "social", "split": "test", "side": "right", "text": "Voters should be required to show a photo ID at the polls."}
+{"id": "voting.r1", "topic": "voting", "axis": "social", "split": "test", "side": "right", "text": "Mail-in voting makes election fraud easier."}
+{"id": "voting.r2", "topic": "voting", "axis": "social", "split": "test", "side": "right", "text": "Voter rolls should be purged more aggressively to prevent fraud."}
+{"id": "family.l0", "topic": "family", "axis": "social", "split": "train", "side": "left", "text": "Society is just as well off if people have priorities other than marriage and children."}
+{"id": "family.l1", "topic": "family", "axis": "social", "split": "train", "side": "left", "text": "There is no single ideal family structure for raising children."}
+{"id": "family.l2", "topic": "family", "axis": "social", "split": "train", "side": "left", "text": "The government should not promote traditional family values."}
+{"id": "family.r0", "topic": "family", "axis": "social", "split": "train", "side": "right", "text": "Society is better off if people make marriage and having children a priority."}
+{"id": "family.r1", "topic": "family", "axis": "social", "split": "train", "side": "right", "text": "Children are best raised by a married mother and father."}
+{"id": "family.r2", "topic": "family", "axis": "social", "split": "train", "side": "right", "text": "The decline of the traditional family is a major cause of America's problems."}
+{"id": "military.l0", "topic": "military", "axis": "social", "split": "test", "side": "left", "text": "The United States spends too much on its military."}
+{"id": "military.l1", "topic": "military", "axis": "social", "split": "test", "side": "left", "text": "Diplomacy is a better way than military strength to ensure peace."}
+{"id": "military.l2", "topic": "military", "axis": "social", "split": "test", "side": "left", "text": "Defense spending should be cut to pay for programs at home."}
+{"id": "military.r0", "topic": "military", "axis": "social", "split": "test", "side": "right", "text": "The United States should increase military spending."}
+{"id": "military.r1", "topic": "military", "axis": "social", "split": "test", "side": "right", "text": "The best way to ensure peace is through military strength."}
+{"id": "military.r2", "topic": "military", "axis": "social", "split": "test", "side": "right", "text": "A strong military is more important than spending on social programs."}
+{"id": "social_media.l0", "topic": "social_media", "axis": "social", "split": "train", "side": "left", "text": "Social media companies should remove false information about elections and vaccines."}
+{"id": "social_media.l1", "topic": "social_media", "axis": "social", "split": "train", "side": "left", "text": "Online platforms should remove hate speech."}
+{"id": "social_media.l2", "topic": "social_media", "axis": "social", "split": "train", "side": "left", "text": "Misinformation is a bigger threat than censorship."}
+{"id": "social_media.r0", "topic": "social_media", "axis": "social", "split": "train", "side": "right", "text": "Social media companies censor conservative views."}
+{"id": "social_media.r1", "topic": "social_media", "axis": "social", "split": "train", "side": "right", "text": "Platforms should not remove posts for being misinformation."}
+{"id": "social_media.r2", "topic": "social_media", "axis": "social", "split": "train", "side": "right", "text": "Government pressure on social media to remove posts violates free speech."}
